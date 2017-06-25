@@ -2,7 +2,7 @@
   "name": "shelter",
   "version": "1.0.0",
   "description": "A Node and Express CRUD app to track shelter animals.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +24,8 @@
     "knex": "^0.13.0",
     "method-override": "^2.3.9",
     "path": "^0.12.7",
-    "pg": "^6.4.0"
+    "pg": "^6.4.0",
+    "request": "^2.81.0",
+    "route": "^0.2.5"
   }
 }
