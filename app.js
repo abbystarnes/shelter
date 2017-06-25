@@ -4,6 +4,8 @@ const port = process.env.PORT || 3000;
 const bodyParser = require('body-parser');
 const routes = require('route');
 const data = require('./routes/data');
+const path = require('path');
+const fs = require('fs');
 let pets
 
 app.set('view engine', 'ejs');
@@ -15,15 +17,15 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
-app.use(data, function(req, res, next){
-  console.log(res);
+app.use(data, function(req, res, response){
 });
+
+// let pets = require('./public/data.json');
+// console.log(pets, 'pets');
 
 app.get('/', function(req, res, next) {
   res.status(200);
-  // res.render('pages/pets.ejs')
-  console.log(data.pets);
-  res.send(data.pets)
+  res.send('meow');
 
 })
 
