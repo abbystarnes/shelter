@@ -1,3 +1,5 @@
+'use strict'
+
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
@@ -6,7 +8,6 @@ const routes = require('route');
 const data = require('./routes/data');
 const path = require('path');
 const fs = require('fs');
-let pets
 
 app.set('view engine', 'ejs');
 
@@ -17,16 +18,12 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
-app.use(data, function(req, res, response){
-});
+app.use(data);
 
-// let pets = require('./public/data.json');
-// console.log(pets, 'pets');
 
 app.get('/', function(req, res, next) {
   res.status(200);
-  res.send('meow');
-
+  res.send('dogs');
 })
 
 app.use(function(err, req, res, next) {
