@@ -4,7 +4,7 @@ module.exports = {
 
   test: {
     client: 'pg',
-    connection: 'noe',
+    connection: 'postgres://localhost/shelter',
     debug:true
   },
 
