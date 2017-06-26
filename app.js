@@ -6,6 +6,7 @@ const port = process.env.PORT || 3000;
 const bodyParser = require('body-parser');
 const routes = require('route');
 const data = require('./routes/data');
+const route = require('./routes/route');
 const path = require('path');
 const fs = require('fs');
 const knex = require('./db/knex.js')
@@ -19,14 +20,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.use(data);
-
-
-app.get('/', function(req, res, next) {
-  res.status(200);
-  res.send('dogs');
-})
-
-knex('pets').select('*').del();
+app.use(route);
 
 app.use(function(err, req, res, next) {
   res.status(err.status || 500);

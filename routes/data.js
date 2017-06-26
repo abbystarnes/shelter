@@ -62,42 +62,7 @@ for (let x = 0; x < pets.length; x ++){
 
     petObjArray.push(petObj);
 
-
-    // console.log(type);
-
-    // knex('pets').insert({
-    //   status: status,
-    //   age: age,
-    //   size: size,
-    //   breed: breed,
-    //   name: name,
-    //   sex: sex,
-    //   description: description,
-    //   petID: petID,
-    //   type: type,
-    //   photo: photo
-    // }, '*').then((ret) => {
-    //   console.log(ret[0], 'object');
-    // });
-
-    // table.string('status');
-    // table.string('age');
-    // table.string('size');
-    // table.string('breed');
-    // table.string('name');
-    // table.string('sex');
-    // table.text('description');
-    // table.integer('petID');
-    // table.string('type');
-    // table.string('photo');
-
-//     knex('books').insert({
-//   title: req.body.title,
-//   genre: req.body.genre,
-//   description: req.body.description,
-//   book_cover_url: req.body.url
-// }, '*').then((ret) => {
 }
-console.log(petObjArray);
+// console.log(petObjArray);
 
 module.exports = router
