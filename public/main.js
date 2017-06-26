@@ -11,14 +11,18 @@ function onSignIn(googleUser) {
   // console.log('Image URL: ' + profile.getImageUrl());
   // console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
   let email = profile.getEmail();
+  // let signIn = {};
+  // signIn.id_token = id_token;
+  // signIn.email = email;
+  // console.log(signIn, 'signIn');
   var xhr = new XMLHttpRequest();
   try {
     xhr.open('POST', '/login');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function() {
-      console.log('Signed in as: ' + xhr.responseText);
+      // console.log('Signed in as: ' + xhr.responseText);
     };
-    xhr.send('idtoken=' + id_token, 'email=' + email);
+    xhr.send('id_token='+id_token+"&email="+email);
   }catch(e){
     console.log('catch ', e);
   }

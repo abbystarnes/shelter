@@ -28,8 +28,10 @@ const knex = require('../db/knex');
 // });
 
 router.post('/login', async(req, res, next) => {
-  console.log(req, 'req');
-  res.send(req.body.idtoken)
+  // console.log(req, 'req');
+  console.log(req.body.id_token, 'id');
+  console.log(req.body.email, 'email');
+  res.send(req.body.email)
 });
 
 router.get('/', async(req, res, next) => {
