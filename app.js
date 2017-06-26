@@ -10,10 +10,13 @@ const route = require('./routes/route');
 const path = require('path');
 const fs = require('fs');
 const knex = require('./db/knex.js')
+const methodOverride = require('method-override');
 // var passport = require('passport');
 // var GoogleStrategy = require('passport-google-oauth').OAuthStrategy;
+const cookieParser = require('cookie-parser');
+var GoogleAuth = require('google-auth-library');
 
-const cookieParser = require('cookie-parser')
+app.use(methodOverride('_method'))
 app.use(cookieParser('secret'))
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'ejs');

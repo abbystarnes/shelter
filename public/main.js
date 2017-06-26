@@ -17,7 +17,7 @@ function onSignIn(googleUser) {
   // console.log(signIn, 'signIn');
   var xhr = new XMLHttpRequest();
   try {
-    xhr.open('POST', '/login');
+    xhr.open('POST', '/login_gmail');
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onload = function() {
       // console.log('Signed in as: ' + xhr.responseText);

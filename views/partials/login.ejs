@@ -8,15 +8,16 @@
       </div>
       <div>
         <p>Sign in with Email &amp; Password:</p>
-        <form>
+        <form id="localLogin" action="/login_local" method="post">
           <label for="email">Email:</label>
-          <input id="email" type="text" name="" value="">
-          <label for="">Password:</label>
-          <input id="pwd" type="text" name="" value="">
+          <input id="email" type="text" name="email" value="">
+          <label for="pwd">Password:</label>
+          <input id="pwd" type="text" name="pwd" value="">
         </form>
+        <%# <input type="submit" name="submit" value="submit">%>
       </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Submit</a>
+      <button type='submit' href="#!" form="localLogin" class="modal-action modal-close waves-effect waves-green btn-flat">Submit</button>
     </div>
 </div>
