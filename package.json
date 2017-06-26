@@ -18,14 +18,28 @@
   "homepage": "https://github.com/abbystarnes/shelter#readme",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "chai": "^4.0.2",
+    "cookie-parser": "^1.4.3",
     "ejs": "^2.5.6",
     "express": "^4.15.3",
     "fs": "0.0.1-security",
+    "google-auth-library": "^0.10.0",
     "knex": "^0.13.0",
+    "materialize-css": "^0.99.0",
     "method-override": "^2.3.9",
+    "mocha": "^3.4.2",
+    "passport": "^0.3.2",
+    "passport-google-oauth": "^1.0.0",
     "path": "^0.12.7",
     "pg": "^6.4.0",
     "request": "^2.81.0",
-    "route": "^0.2.5"
+    "route": "^0.2.5",
+    "supertest": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-mocha": "^4.3.1"
   }
 }

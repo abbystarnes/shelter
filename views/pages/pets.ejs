@@ -1,0 +1,15 @@
+<% include ../partials/header %>
+<% include ../partials/login %>
+    <% for(pet in pets){%>
+      <div class='card'>
+        <a href='/pets/<%=pets[pet].id%>'><h3><%=pets[pet].name%></h3></a>
+        <img style='height:100px' src=<%=pets[pet].photo%>></img>
+        <p><%=pets[pet].status%></p>
+        <p><%=pets[pet].age%></p>
+        <p><%=pets[pet].size%></p>
+        <p><%=pets[pet].breed%></p>
+        <p><%=pets[pet].sex%></p>
+      </div>
+    <%}%>
+  </body>
+</html>
