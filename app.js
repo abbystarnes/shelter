@@ -11,8 +11,6 @@ const path = require('path');
 const fs = require('fs');
 const knex = require('./db/knex.js')
 const methodOverride = require('method-override');
-// var passport = require('passport');
-// var GoogleStrategy = require('passport-google-oauth').OAuthStrategy;
 const cookieParser = require('cookie-parser');
 var GoogleAuth = require('google-auth-library');
 
@@ -28,29 +26,7 @@ app.use(bodyParser.urlencoded({
   extended: false
 }));
 
-// passport.use(new GoogleStrategy({
-//     consumerKey: '46396124230-5mojh5ic5690t3fa19dbv505p4u52lc2.apps.googleusercontent.com',
-//     consumerSecret: 'mhmd-a9orS52t1VA5MKx6250',
-//     callbackURL: "/"
-//   },
-//   function(token, tokenSecret, profile, done) {
-//       User.findOrCreate({ googleId: profile.id }, function (err, user) {
-//         console.log(user, 'user');
-//         return done(err, user);
-//       });
-//   }
-// ));
 
-// app.get('/auth/google',
-//   passport.authenticate('google', { scope: ['https://www.googleapis.com/auth/plus.login'] }));
-//
-// app.get('/auth/google/callback',
-//   passport.authenticate('google', { failureRedirect: '/' }),
-//   function(req, res) {
-//     res.redirect('/');
-// });
-
-// app.use(data);
 app.use(route);
 
 
