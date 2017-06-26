@@ -2,23 +2,19 @@
 
 module.exports = {
 
-  testing: {
+  test: {
     client: 'pg',
-    connection: {
-      filename: 'postgres://localhost/shelter'
-    }
+    connection: 'postgres://localhost/shelter'
   },
+
   development: {
     client: 'pg',
-    connection: {
-      filename: 'postgres://localhost/shelter'
-    }
+    connection: 'postgres://localhost/shelter'
   },
+
   production: {
     client: 'pg',
-    connection: {
-      filename: 'process.env.DATABASE_URL'
-    }
+    connection: process.env.DATABASE_URL
   }
 
 };

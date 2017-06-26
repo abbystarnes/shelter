@@ -8,7 +8,7 @@ const routes = require('route');
 const data = require('./routes/data');
 const path = require('path');
 const fs = require('fs');
-
+const knex = require('./db/knex.js')
 app.set('view engine', 'ejs');
 
 app.disable('x-powered-by');
@@ -25,6 +25,8 @@ app.get('/', function(req, res, next) {
   res.status(200);
   res.send('dogs');
 })
+
+knex('pets').select('*').del();
 
 app.use(function(err, req, res, next) {
   res.status(err.status || 500);
