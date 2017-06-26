@@ -5,8 +5,9 @@ var request = require('request');
 var fs = require('fs');
 const path = require('path');
 const knex = require('../db/knex');
-
+const bcrypt = require('bcrypt-as-promised');
 var GoogleAuth = require('google-auth-library');
+const saltRounds = 10;
 
 
 //GMAIL LOGIN
@@ -23,7 +24,6 @@ router.post('/login_gmail', async(req, res, next) => {
           console.log(e, 'error');
         }
         var payload = login.getPayload();
-        console.log(payload.email, 'payload email');
         var userid = payload['sub'];
         knex('handlers').where('email', payload.email).then((ret)=>{
           let permissionLevel = ret[0].permission;
@@ -36,16 +36,17 @@ router.post('/login_gmail', async(req, res, next) => {
 
 //LOCAL LOGIN
 router.post('/login_local', async(req, res, next) => {
-  console.log('local login');
-  console.log(req.body, 'req body');
-  let pets
-  knex('pets').then((ret) => {
-    // console.log(ret);
-    pets = ret;
-    res.render('pages/pets', {
-      pets : pets
-    });
+  // let hashedPWD;
+  knex('handlers').where('email', req.body.email).then((data)=>{
+    bcrypt.compare(req.body.pwd, data[0].hashed_pwd)
+    .then((ret)=>{
+      if (ret) {
+        let permissionLevel = data[0].permission;
+        res.cookie('permission' , permissionLevel).send('Cookie is set');
+      }
+    })
   })
+
 });
 
 router.get('/', async(req, res, next) => {

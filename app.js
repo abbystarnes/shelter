@@ -12,6 +12,9 @@ const fs = require('fs');
 const knex = require('./db/knex.js')
 const methodOverride = require('method-override');
 const cookieParser = require('cookie-parser');
+const bcrypt = require('bcrypt-as-promised');
+const saltRounds = 10;
+
 var GoogleAuth = require('google-auth-library');
 
 app.use(methodOverride('_method'))
