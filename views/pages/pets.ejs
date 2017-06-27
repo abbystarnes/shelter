@@ -10,7 +10,7 @@
         <p><%=pets[pet].breed%></p>
         <p><%=pets[pet].sex%></p>
         <a href="#modal<%=pets[pet].id%>">Edit</a>
-        <a href="/pets" class='delete-button' id='<%=pets[pet].id%>'>Delete</a>
+        <a href="/pets" class='delete-pet-button' id='pet<%=pets[pet].id%>'>Delete</a>
       </div>
     <%}%>
     <a class='waves-effect waves-light btn' href="#modal_addPet">Add</a>
@@ -66,7 +66,6 @@
               <input id="photo" type="text" name="photo" value="<%=pets[x].photo%>">
               </form>
             </div>
-
           <div class="modal-footer">
             <button type='submit' href="#!" form="pet_edit/<%=pets[x].id%>" class="modal-action modal-close waves-effect waves-green btn-flat">Update</button>
           </div>

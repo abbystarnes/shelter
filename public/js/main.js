@@ -2,6 +2,31 @@ $(document).ready(function() {
     $('.modal').modal();
 
     var buttons = document.getElementsByClassName('delete-button');
+    var pet_buttons = document.getElementsByClassName('delete-pet-button');
+    console.log(pet_buttons, 'pet buttons');
+
+    if (pet_buttons) {
+      for (let x = 0; x < pet_buttons.length; x++){
+        let button = pet_buttons[x];
+        let id = pet_buttons[x].id;
+        let numid = parseInt(id.replace("pet",""));
+
+        $(button).click(function(){
+          console.log('clicked');
+          let xhr3 = new XMLHttpRequest();
+          try {
+            xhr3.open('DELETE',  `pet_delete/${numid}`);
+            xhr3.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr3.onload = function() {
+            };
+            xhr3.send('id='+numid);
+          }catch(e){
+            console.log('catch ', e);
+          }
+        });
+
+      }
+    }
 
     if (buttons) {
       for (let x = 0; x < buttons.length; x++){

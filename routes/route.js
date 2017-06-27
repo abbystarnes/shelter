@@ -136,6 +136,22 @@ router.put('/pet_edit/:id', async(req, res, next) => {
 
 });
 
+router.delete('/pet_delete/:id', async(req, res, next) => {
+  let id = parseInt(req.body.id);
+  console.log(req.body, 'return');
+  knex('pets').del().where('id', id).then((ret) =>{
+    console.log(ret, 'deleted obj');
+    let pets
+    knex('pets').then((ret) =>{
+      pets = ret;
+      res.render('pages/pets', {
+        pets: pets
+      })
+    })
+  })
+
+});
+
 router.get('/handlers', function(req, res, next){
   let handlers
   knex('handlers').then((ret) =>{
