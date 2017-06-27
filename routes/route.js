@@ -102,7 +102,14 @@ router.post('/handler_add', async(req, res, next) => {
     email: req.body.email,
     permission: req.body.permission
   }, '*').then((ret) =>{
-    console.log(ret);
+    console.log(ret, 'return');
+    let handlers
+    knex('handlers').then((ret) =>{
+      handlers = ret;
+      res.render('pages/handlers', {
+        handlers: handlers
+      })
+    })
   });
 
 });
@@ -127,9 +134,15 @@ router.put('/handler_edit/:id', async(req, res, next) => {
 
 });
 
-router.get('/handler_edit/:id', async(req, res, next) => {
-
-  res.send('hello');
+router.delete('/handler_delete/:id', async(req, res, next) => {
+  console.log(req.body, 'return');
+  let handlers
+  knex('handlers').then((ret) =>{
+    handlers = ret;
+    res.render('pages/handlers', {
+      handlers: handlers
+    })
+  })
 
 });
 
