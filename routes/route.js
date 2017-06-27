@@ -8,6 +8,8 @@ const knex = require('../db/knex');
 const bcrypt = require('bcrypt-as-promised');
 var GoogleAuth = require('google-auth-library');
 const saltRounds = 10;
+const methodOverride = require('method-override');
+router.use(methodOverride('X-HTTP-Method-Override'))
 
 
 //GMAIL LOGIN
@@ -87,13 +89,48 @@ router.get('/handlers', function(req, res, next){
   let handlers
   knex('handlers').then((ret) =>{
     handlers = ret;
-    console.log(handlers);
     res.render('pages/handlers', {
       handlers: handlers
     })
   })
-
-
 })
+
+router.post('/handler_add', async(req, res, next) => {
+  knex('handlers').insert({
+    first_name: req.body.first_name,
+    last_name: req.body.last_name,
+    email: req.body.email,
+    permission: req.body.permission
+  }, '*').then((ret) =>{
+    console.log(ret);
+  });
+
+});
+
+router.put('/handler_edit/:id', async(req, res, next) => {
+  let id = parseInt(req.params.id);
+  knex('handlers').where('id', id).update({
+    first_name: req.body.first_name,
+    last_name: req.body.last_name,
+    email: req.body.email,
+    permission: req.body.permission
+  }, '*').then((ret) =>{
+    console.log(ret, 'return');
+    let handlers
+    knex('handlers').then((ret) =>{
+      handlers = ret;
+      res.render('pages/handlers', {
+        handlers: handlers
+      })
+    })
+  });
+
+});
+
+router.get('/handler_edit/:id', async(req, res, next) => {
+
+  res.send('hello');
+
+});
 
 module.exports = router;

@@ -17,10 +17,56 @@
       <td><%=handlers[x].email%></td>
       <td><%=handlers[x].permission%></td>
       <td></td>
-      <td><a>Edit</a></td>
+      <td><a href="#modal<%=handlers[x].id%>">Edit</a></td>
       <td><a>Delete</a></td>
     </tr>
+
+
   <% } %>
 </tbody>
 </table>
-<a>Add</a>
+
+<a class='waves-effect waves-light btn' href="#modal2">Add</a>
+<div id='modal2' class='modal'>
+    <div class="modal-content">
+        <form id="handler_add" action="/handler_add" method="post">
+          <label for="first_name">First Name:</label>
+          <input id="first_name" type="text" name="first_name" value="">
+          <label for="last_name">Last Name:</label>
+          <input id="last_name" type="text" name="last_name" value="">
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="email" value="">
+          <label for="permission">Permission Level:</label>
+          <input id="permission" type="text" name="permission" value="">
+          <label for="pets">Pets:</label>
+          <input id="pets" type="text" name="pets" value="">
+        </form>
+      </div>
+
+    <div class="modal-footer">
+      <button type='submit' href="/handlers" form="handler_add" class="modal-action modal-close waves-effect waves-green btn-flat">Submit</button>
+    </div>
+</div>
+
+<% for(let x = 0; x < handlers.length; x++) { %>
+  <div id='modal<%=handlers[x].id%>' class='modal'>
+      <div class="modal-content">
+          <form id="handler_edit/<%=handlers[x].id%>" action="/handler_edit/<%=handlers[x].id%>?_method=PUT" method="POST">
+            <label for="first_name">First Name:</label>
+            <input value='<%=handlers[x].first_name%>' id="first_name" type="text" name="first_name" value="">
+            <label for="last_name">Last Name:</label>
+            <input value='<%=handlers[x].last_name%>' id="last_name" type="text" name="last_name" value="">
+            <label for="email">Email:</label>
+            <input value='<%=handlers[x].email%>' id="email" type="email" name="email" value="">
+            <label for="permission">Permission Level:</label>
+            <input value='<%=handlers[x].permission%>' id="permission" type="text" name="permission" value="">
+            <label for="pets">Pets:</label>
+            <input id="pets" type="text" name="pets" value="">
+          </form>
+        </div>
+
+      <div class="modal-footer">
+        <button type='submit' href="#!" form="handler_edit/<%=handlers[x].id%>" class="modal-action modal-close waves-effect waves-green btn-flat">Update</button>
+      </div>
+  </div>
+<% } %>
