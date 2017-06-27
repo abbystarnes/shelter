@@ -1,32 +1,33 @@
 <% include ../partials/header %>
 <% include ../partials/login %>
-
-<table>
-<thead>
-  <tr>
-    <td>name</td>
-    <td>email</td>
-    <td>permission level</td>
-    <td>pets</td>
-  </tr>
-</thead>
-<tbody>
-  <% for (let x = 0; x < handlers.length; x++) { %>
+<div class="card">
+  <table class='responsive-table'>
+  <thead>
     <tr>
-      <td><%=handlers[x].last_name%>, <%=handlers[x].first_name%></td>
-      <td><%=handlers[x].email%></td>
-      <td><%=handlers[x].permission%></td>
-      <td></td>
-      <td><a href="#modal<%=handlers[x].id%>">Edit</a></td>
-      <td><a href="/handlers" class='delete-button' id='<%=handlers[x].id%>'>Delete</a></td>
+      <td>name</td>
+      <td>email</td>
+      <td>permission level</td>
+      <td>pets</td>
     </tr>
-  <% } %>
-</tbody>
-</table>
-
-<a class='waves-effect waves-light btn' href="#modal2">Add</a>
+  </thead>
+  <tbody>
+    <% for (let x = 0; x < handlers.length; x++) { %>
+      <tr>
+        <td><%=handlers[x].last_name%>, <%=handlers[x].first_name%></td>
+        <td><%=handlers[x].email%></td>
+        <td><%=handlers[x].permission%></td>
+        <td></td>
+        <td><a class='btn blue' href="#modal<%=handlers[x].id%>">Edit</a></td>
+        <td><a class='btn red delete-button' href="/handlers" id='<%=handlers[x].id%>'>Delete</a></td>
+      </tr>
+    <% } %>
+  </tbody>
+  </table>
+</dvi>
+<a class='btn-large btn-floating green waves-effect waves-light btn' href="#modal2"><i class="material-icons">add</i></a>
 <div id='modal2' class='modal'>
     <div class="modal-content">
+        <h3>New Handler</h3>
         <form id="handler_add" action="/handler_add" method="post">
           <label for="first_name">First Name:</label>
           <input id="first_name" type="text" name="first_name" value="">

@@ -4,7 +4,7 @@
   "petfinder": {
     "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
     "lastOffset": {
-      "$t": "3"
+      "$t": "20"
     },
     "pets": {
       "pet": [{
@@ -129,7 +129,7 @@
           "$t": "F"
         },
         "description": {
-          "$t": "Coco can think of nothing she would enjoy more than a household where she could have love pretty much all the time. Yes, she is that responsive and loving with humans. That said, she is getting along famously with her resident foster dog sibling and they are finding it fun to play keep-away and tug with toys, so she's got a playful streak as well. Coco is fully house trained and appears crate trained, too. However, unless a human wants to be in there with her, she would much prefer to be out and about with her family than in her crate. She does get a titch restless if left alone in the crate for too long. Coco has spurts of energy when play is her first agenda, but she would be very happy in a home where there's far more snuggle and chill out time than busy activity time. She's a happy go lucky gal; all you have to do is look her way and her tail starts spinning in glee. Oh, since she is so well adjusted to life as she knows it, I forgot to mention that she is a tripod, one who gets along very well with three legs. Come meet Coco today, she doesn't want you to lose out on any more time to pet and snuggle with her. June 25, 2017, 4:25 am"
+          "$t": "Coco can think of nothing she would enjoy more than a household where she could have love pretty much all the time. Yes, she is that responsive and loving with humans. That said, she is getting along famously with her resident foster dog sibling and they are finding it fun to play keep-away and tug with toys, so she's got a playful streak as well. Coco is fully house trained and appears crate trained, too. However, unless a human wants to be in there with her, she would much prefer to be out and about with her family than in her crate. She does get a titch restless if left alone in the crate for too long. Coco has spurts of energy when play is her first agenda, but she would be very happy in a home where there's far more snuggle and chill out time than busy activity time. She's a happy go lucky gal; all you have to do is look her way and her tail starts spinning in glee. Oh, since she is so well adjusted to life as she knows it, I forgot to mention that she is a tripod, one who gets along very well with three legs. Come meet Coco today, she doesn't want you to lose out on any more time to pet and snuggle with her. June 27, 2017, 4:47 am"
         },
         "mix": {
           "$t": "no"
@@ -138,7 +138,7 @@
           "$t": "TX1218"
         },
         "lastUpdate": {
-          "$t": "2017-06-25T09:22:36Z"
+          "$t": "2017-06-27T09:25:31Z"
         },
         "animal": {
           "$t": "Dog"
@@ -403,11 +403,2227 @@
         "animal": {
           "$t": "Dog"
         }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/1/?bust=1496723456&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/1/?bust=1496723456&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/1/?bust=1496723456&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/1/?bust=1496723456&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/1/?bust=1496723456&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/2/?bust=1496723456&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/2/?bust=1496723456&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/2/?bust=1496723456&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/2/?bust=1496723456&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/2/?bust=1496723456&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/3/?bust=1496723457&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/3/?bust=1496723457&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/3/?bust=1496723457&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/3/?bust=1496723457&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295797/3/?bust=1496723457&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295797"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "American Bulldog"
+          }
+        },
+        "name": {
+          "$t": "Santana"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Long trail hikes? Check. Cuddle forever friend? Check Polite and well mannered? Check. Santana has learned so much in her stay at APA! She's accomplished leash walker and takes her volunteer buddy around Lady Bird Lake just about every morning. Her perfect day is a long, leisurely hike followed by a snooze in your lap. She is a perfect lady in the house, and quite a beauty. She is sure to improve your decor just by lying on the couch. Her home skills are being impeccably house trained, a napper and she won't snatch anything off the counter. Santana enjoys learning new things and is in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Santana has a personalized training plan and works with a volunteer trainer several times a week to help her learn the skills to become the best dog she can be! She is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Santana successfully completes all the skills on her training plan she will be considered TOP Dog Ready! Santana is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Santana after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:11:34Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/1/?bust=1496723469&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/1/?bust=1496723469&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/1/?bust=1496723469&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/1/?bust=1496723469&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/1/?bust=1496723469&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/2/?bust=1496723469&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/2/?bust=1496723469&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/2/?bust=1496723469&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/2/?bust=1496723469&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/2/?bust=1496723469&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/3/?bust=1496723470&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/3/?bust=1496723470&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/3/?bust=1496723470&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/3/?bust=1496723470&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295800/3/?bust=1496723470&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295800"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": [{
+            "$t": "Pointer"
+          }, {
+            "$t": "Catahoula Leopard Dog"
+          }]
+        },
+        "name": {
+          "$t": "Galaxy"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Galaxy is APA's version of Princess Leia with eyes that sparkle brighter than stars in the sky when she sees the people she loves. This affectionate, sometimes goofy girl can be shy when first meeting new humans, but once she gets comfortably acquainted, she lights up and her personality shines. She loves, loves and loves her human friends and wants to cuddle with them, sneaking in kisses and curling up in their laps. Galaxy is happy to take walks and play with toys, then lay next to her people and ask for petting. And if it's been a while since you gave her a treat, she'll put her paw on your arm as a polite reminder. Galaxy has great leash skills and is crate and house trained. Quick to learn, Galaxy is in the Total Obedience Program. The Total Obedience Program (TOP) is modeled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Galaxy has a personalized training plan and works with a volunteer trainer several times a week to help her learn the skills to become the best dog she can be! She is now TOP Dog Ready, which means she's already learned all the skills in her training plan, including sit and down, walking nicely on leash, sitting calmly when approached by strangers, calmly walking past another dog, staying in a sit or down until told 'free,' and coming when called. Galaxy has worked hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Galaxy after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 Come meet this girl with the cutest, most contagious smile and see if she can be part of your galaxy!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:11:37Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/1/?bust=1496723483&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/1/?bust=1496723483&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/1/?bust=1496723483&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/1/?bust=1496723483&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/1/?bust=1496723483&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/2/?bust=1496723485&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/2/?bust=1496723485&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/2/?bust=1496723485&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/2/?bust=1496723485&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/2/?bust=1496723485&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/3/?bust=1496723485&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/3/?bust=1496723485&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/3/?bust=1496723485&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/3/?bust=1496723485&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295804/3/?bust=1496723485&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295804"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": [{
+            "$t": "Pit Bull Terrier"
+          }, {
+            "$t": "Labrador Retriever"
+          }]
+        },
+        "name": {
+          "$t": "Bock"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Good looks? Check! Good manners? Check! Good fetching skills? Check, check check! Bock is one happy dude! He will flirt with his 1,000-watt smile and win you over with his joie de vivre. Then when he's sure of your love, he'll turn his attention to the other love of his life: balls. Tennis balls, jolly balls (yes, those toys meant for horses), and even a bowling ball he tries to stand on! Bock loves them all! He also really enjoys playing with frisbees and chillin' in a pool. Don't worry, Bock has a soft spot for humans too. As soon as you call him over, he's all wiggles and back scratches. He loves to snuggle after a full day of fetch, so get comfortable! This cute chicken (bock bock bock!) is a charmer and would love nothing more than to be your Netflix partner every day of the week. Bock loves learning; he's happy to hang up his ball for a little bit while he's learning the finer points of obedience at the Total Obedience Program. The Total Obedience Program (TOP) is modeled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Bock has a personalized training plan and works with a volunteer trainer several times a week to help him learn the skills to become the best dog he can be! He is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Bock successfully completes all the skills on his training plan he will be considered TOP Dog Ready! Bock is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Bock after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 Don't miss out on the gorgeous dog! Bock is all retriever and will reward long days of fetching with companionship."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:11:41Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/1/?bust=1496723497&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/1/?bust=1496723497&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/1/?bust=1496723497&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/1/?bust=1496723497&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/1/?bust=1496723497&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/2/?bust=1496723498&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/2/?bust=1496723498&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/2/?bust=1496723498&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/2/?bust=1496723498&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/2/?bust=1496723498&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/3/?bust=1496723499&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/3/?bust=1496723499&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/3/?bust=1496723499&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/3/?bust=1496723499&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295812/3/?bust=1496723499&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295812"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Australian Cattle Dog / Blue Heeler"
+          }
+        },
+        "name": {
+          "$t": "Murphy"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Murphy is a true go-getter. He's very smart and very athletic. He's not just interviewing to be your dog; he's interviewing for a job. Whether patrolling your yard for varmints, keeping you safe out on the trails or learning to run obstacle courses, Murphy is happiest when he's got something to do. Murphy is house trained, knows sit, and walks well on a leash. He is very protective of his home and the people he loves, so he can be a bit aloof when meeting strangers. He wants to decide for himself if you are friend or foe. But once he decides you are a friend, he's ride or die. He's as loyal as they come. If you're interested in getting into some sporting dog competitions, or if you're a regular exerciser looking for a partner, or maybe have a large piece of property in need of protecting, Murphy would love to meet you. He's got a five-year plan, a can-do attitude, and he can start immediately."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:11:44Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/1/?bust=1497100317&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/1/?bust=1497100317&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/1/?bust=1497100317&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/1/?bust=1497100317&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/1/?bust=1497100317&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/2/?bust=1497100317&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/2/?bust=1497100317&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/2/?bust=1497100317&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/2/?bust=1497100317&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/2/?bust=1497100317&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/3/?bust=1497100318&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/3/?bust=1497100318&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/3/?bust=1497100318&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/3/?bust=1497100318&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295814/3/?bust=1497100318&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295814"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Border Collie"
+          }
+        },
+        "name": {
+          "$t": "Major"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Meet Major, a vivacious, spirited ball of fluff. This silly guy does a cute play bow followed quickly by a zoom around the yard when he wants to play with his human. He can be very cat-like when he wants attention, preferring to rub his head all over your legs. Major is dreaming of finding his forever home, complete with a spacious and secure backyard for him to run around. While he'd love to find a human that loves to be just as active as him, he is also skilled in the art of 'self-fetch' by tossing his toys up into the air and catching them with gusto. This smart and treat-motivated pup is the perfect companion for agility training, puzzle toys and games. Major will delight his new family with all kinds of tricks and commands, which you'll get to know in pre-adoption training provided by APA. Major is an excellent leash walker and gives great eye contact; he is always ready to listen and learn. Open your heart and home to this smarty-pants and get ready to fall in love with Major's adorable ears, and his charming quirkiness and zest for life!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:11:59Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/1/?bust=1496723522&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/1/?bust=1496723522&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/1/?bust=1496723522&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/1/?bust=1496723522&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/1/?bust=1496723522&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/2/?bust=1496723523&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/2/?bust=1496723523&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/2/?bust=1496723523&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/2/?bust=1496723523&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/2/?bust=1496723523&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/3/?bust=1496723523&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/3/?bust=1496723523&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/3/?bust=1496723523&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/3/?bust=1496723523&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295817/3/?bust=1496723523&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295817"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Pit Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Oscar"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Do you like to hit the snooze button a few times in the morning? Oscar does too! This cutie is happy to cuddle in bed until the late morning. He will also politely lounge around the house once he does get up, maybe chewing on a nice bone or stuffed toy. Don't let his lazy, homebody attitude fool you though. He is more than happy to join his human for a nice long walk or jog. He also loves swimming and wading in any body of water he can find. At the shelter, Oscar spends his time playing fetch and and going for walks with his favorite volunteers. He has also had lots of behavior training and likes to show off his great leash manners. He spent some time in a foster home where he has proven his love for sleep and snuggling, and impressed his friends by being crate trained and house trained! Oscar bonds closely with his humans and needs a low-key home with a patient and loving individual or couple. He may be able to live with another well-matched pup, and he seems to prefer the company of lady dogs. His biggest dream is a yard with his very own kiddie pool! Oscar is affectionate, silly, smart and eager to please. He also happens to be extremely adorable. He cannot wait to be living it up with a family of his own, one that will be dedicated to help him keep perfecting his skills!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:02Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/1/?bust=1496723534&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/1/?bust=1496723534&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/1/?bust=1496723534&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/1/?bust=1496723534&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/1/?bust=1496723534&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/2/?bust=1496723535&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/2/?bust=1496723535&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/2/?bust=1496723535&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/2/?bust=1496723535&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/2/?bust=1496723535&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/3/?bust=1496723536&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/3/?bust=1496723536&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/3/?bust=1496723536&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/3/?bust=1496723536&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295821/3/?bust=1496723536&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295821"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Labrador Retriever"
+          }
+        },
+        "name": {
+          "$t": "Loki"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "There's something about black dogs. Though they are beautiful, they tend to get overlooked in the shelter. But if you could take a moment and visit Loki, you'll see that he is a total love-bug. He has that look that says, 'Want to have some fun together?' Once you get him leashed up and out the door, he is full of life! He can lope around the ball fields with a big, goofy grin! No matter what he's doing, he seems very proud of himself as he struts his stuff. His true joyful nature comes out when he's outside having fun. His other favorite hobby is loving up on his humans. He is a very affectionate cuddlebug. He loves being around his favorite people, giving them kisses, cuddling on their laps and spooning in bed with them. He brings toys to his human friends for playtime, plays tug-o-war, chases tennis balls, and then does zoomies in the yard. He's a smart, treat motivated boy who already answers to a host of hand signal commands - including 'sit,' 'lay down' and 'shake.' And he's crate-trained and seems house trained and is great in the car. If you've got treats, he's willing to learn new tricks. Loki is a loving, loyal boy will be eager to please an active family and who can give him the affection he wants and will return in abundance. If that's not incentive enough, his adoption fee is paid. Won't you come visit him today? Please check out his Instagram @adoptloki.apa to learn more about Loki!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:06Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/1/?bust=1496723549&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/1/?bust=1496723549&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/1/?bust=1496723549&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/1/?bust=1496723549&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/1/?bust=1496723549&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/2/?bust=1496723549&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/2/?bust=1496723549&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/2/?bust=1496723549&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/2/?bust=1496723549&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/2/?bust=1496723549&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/3/?bust=1496723550&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/3/?bust=1496723550&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/3/?bust=1496723550&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/3/?bust=1496723550&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295827/3/?bust=1496723550&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295827"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Shepherd"
+          }
+        },
+        "name": {
+          "$t": "Pinball"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Sweet, relaxed and smart. This pretty lady has it all. Pinball is a great listener and is looking for a human who is ready to cuddle with her and teach her some more tricks. But don't be fooled- she's a smart girl and knows quite a few already. She's easy to please, and is always down for a cuddle, a pet, or even a walk. She's always ready to learn, and to love. Pinball's perfect home would be one with a big back yard for her to play in. And humans who like being active, or going on runs or on the trails would be a perfect fit. She's great walking on a leash, listens well and is in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Pinball has a personalized training plan and works with a volunteer trainer several times a week to help her learn the skills to become the best dog she can be! She is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Pinball successfully completes all the skills on her training plan she will be considered TOP Dog Ready! Pinball is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Pinball after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:09Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/1/?bust=1496723574&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/1/?bust=1496723574&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/1/?bust=1496723574&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/1/?bust=1496723574&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/1/?bust=1496723574&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/2/?bust=1496723575&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/2/?bust=1496723575&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/2/?bust=1496723575&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/2/?bust=1496723575&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/2/?bust=1496723575&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/3/?bust=1496723575&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/3/?bust=1496723575&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/3/?bust=1496723575&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/3/?bust=1496723575&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295841/3/?bust=1496723575&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295841"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Hound"
+          }
+        },
+        "name": {
+          "$t": "Ziggy"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "If a spunky, young dog with a desire to learn is what you're looking for, come to Austin Pets Alive! to meet Ziggy. Imagine adopting a dog who already has the foundation of obedience - obeying sit, down, place (in progress), walking on leash. Ziggy is a very playful guy, and he loves to run, run and run some more. Ziggy is very treat-oriented, making training a fun time for you both. When walking on leash, he's sometimes so focused on his handler and the treat, he'll walk right into fences. Ziggy enjoys learning new things and is in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Ziggy has a personalized training plan and works with a volunteer trainer several times a week to help him learn the skills to become the best dog he can be! He is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Ziggy successfully completes all the skills on his training plan he will be considered TOP Dog Ready! Ziggy is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Ziggy after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 Ziggy is going to grow into his body and his manners; just you wait and see what training and love will do for him. He wants to be yours! This goofy boy will melt your heart and empty your treat pouch."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:15Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/1/?bust=1496723587&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/1/?bust=1496723587&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/1/?bust=1496723587&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/1/?bust=1496723587&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/1/?bust=1496723587&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/2/?bust=1496723587&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/2/?bust=1496723587&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/2/?bust=1496723587&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/2/?bust=1496723587&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/2/?bust=1496723587&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/3/?bust=1496723588&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/3/?bust=1496723588&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/3/?bust=1496723588&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/3/?bust=1496723588&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295858/3/?bust=1496723588&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295858"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Catahoula Leopard Dog"
+          }
+        },
+        "name": {
+          "$t": "Spanky"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "In a word, quirky would be the best way to describe this little rascal. He's kind of like the Eddie Haskell of dogs. Always up to something and ready to get into some fun shenanigans with his best bud! He may be small in stature, but his personality is larger than life. This guy is a character, that's for sure! He may have a mischievous look in his eyes, but Spanky is really chill on the leash. While exploring the great outdoors, he likes to stay right by his human's side. He's very curious about his surroundings and is always ready for a fun adventure. Walking is a lot of fun, but what he most enjoys is lap time! This little dude wants to be in your lap more than anything. If you're looking for a dog that will shower you with affection, Spanky's your man. Once you pet his super soft brindle coat, you'll see that he is made for cuddling! When he's not canoodling with his humans, he's happy to entertain himself with toys. You should see him tossing toys up in the air and flopping around like a fish out of water. Graceful, he is not-but he owns his clumsiness like a boss! Like his alter ego, Eddie Haskell, Spanky is smart like a fox. He enjoys learning new things and is in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Spanky has a personalized training plan and works with a volunteer trainer several times a week to help him learn the skills to become the best dog he can be! He is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Spanky successfully completes all the skills on his training plan he will be considered TOP Dog Ready! Spanky is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Spanky after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 See more of this cutie on his own Storify page!: https://storify.com/SpookyGurl95/operationadoptspanky-at-austin-pets-alive"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:18Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/1/?bust=1496723599&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/1/?bust=1496723599&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/1/?bust=1496723599&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/1/?bust=1496723599&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/1/?bust=1496723599&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/2/?bust=1496723600&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/2/?bust=1496723600&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/2/?bust=1496723600&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/2/?bust=1496723600&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/2/?bust=1496723600&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/3/?bust=1496723600&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/3/?bust=1496723600&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/3/?bust=1496723600&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/3/?bust=1496723600&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295861/3/?bust=1496723600&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295861"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Staffordshire Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Marilla"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Marilla is delightful in all the ways dogs can be; goofy, cuddly, and completely unaware of her size. Marilla loves two things more than anything else in this world, and those things are fetch and belly rubs. If she has a choice between a ball or a new friendly person to beg for rubs, she will agonize over it for a few moments. Usually she chooses the belly rubs. And if she can get some playtime in water, even better. She has been labeled the 'Mermaid of Lady Bird Lake', as she can be spotted at this watering hole on a sunny day, swimming the day away. Our Marilla can paddle for days. Her default assumption when meeting new people is that they are new best friends, and they feel the same way about her. She cannot get close enough to people. She will wind herself all around you trying to get as many body parts touching as possible. Marilla would do best in a home where someone can be around most of the time, with a yard to play in. She seems house trained. She would be best around older kids, as she is very strong and her cuddles may be overwhelming for little ones. We haven't introduced her to cats yet. Marilla enjoys learning new things and is in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Marilla has a personalized training plan and works with a volunteer trainer several times a week to help her learn the skills to become the best dog she can be! She is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Marilla successfully completes all the skills on her training plan she will be considered TOP Dog Ready! Marilla is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Marilla after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 If you can handle mountains of instant and unconditional love, then please consider Marilla. She's been waiting for you."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:21Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/1/?bust=1496723611&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/1/?bust=1496723611&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/1/?bust=1496723611&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/1/?bust=1496723611&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/1/?bust=1496723611&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/2/?bust=1496723612&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/2/?bust=1496723612&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/2/?bust=1496723612&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/2/?bust=1496723612&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/2/?bust=1496723612&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/3/?bust=1496723612&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/3/?bust=1496723612&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/3/?bust=1496723612&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/3/?bust=1496723612&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295873/3/?bust=1496723612&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295873"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Labrador Retriever"
+          }
+        },
+        "name": {
+          "$t": "Boscoe"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "The best word to describe Boscoe? Enthusiastic. Whether it's showing off his skills, tossing around his toys, or making friends, Boscoe does it all with gusto. But even with all his pizzazz, he remains a gentleman when meeting new people. He sits, he shakes, he wiggles to your side with zeal! And don't let his gray hairs fool you; this newly minted senior has plenty of pep in his step and is still young at heart. Can't teach a dog old tricks? Boscoe is more than happy to prove you wrong. This savvy boy picks up on new skills in record time. He's got more than enough heart to repay the humans who love and care for him. He aims to please, and he aims high! Boscoe has a full repertoire of skills and would be thrilled to show you all he knows. This dapper gent is ready to win you over with his spunk and his charm!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:25Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/1/?bust=1496723624&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/1/?bust=1496723624&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/1/?bust=1496723624&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/1/?bust=1496723624&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/1/?bust=1496723624&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/2/?bust=1496723624&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/2/?bust=1496723624&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/2/?bust=1496723624&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/2/?bust=1496723624&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/2/?bust=1496723624&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/3/?bust=1496723625&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/3/?bust=1496723625&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/3/?bust=1496723625&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/3/?bust=1496723625&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295882/3/?bust=1496723625&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295882"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Pit Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Monty"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "At first glance, it might appear that Monty is channeling his inner Eeyore. With those soulful puppy dog eyes and that prominent underbite, he has a way of pulling at our heartstrings. But don't be fooled! This fun-loving boy is all wiggles and wags when he's playing with toys or exploring the great outdoors. Runners and hikers, take note! if you're looking for the perfect trail companion, Monty is your boy. He goes out on the trail on a regular basis with his Virtual Foster friend. Together, they run side-by-side for miles. Bikers, strollers, dogs, cranky swans and other distractions don't phase him in the slightest. He truly is a fabulous workout buddy! So if you're looking for an athletic, sweet-natured, handsome boy, why not go the full Monty? If that face isn't enough to convince you to take him home immediately, we should also note that he has received rave reviews from his sleepover friend. He proved to be potty trained and a respectful houseguest. He's also an excellent snoozer and is content to lounge on the couch and keep you company for hours during Netflix marathons. In addition to being a top-notch lounger and trail companion, Monty is also in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Monty has a personalized training plan and works with a volunteer trainer several times a week to help him learn the skills to become the best dog he can be! He is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Monty successfully completes all the skills on his/her training plan he will be considered TOP Dog Ready! Monty is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Monty after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 So what do you say? Want to come visit this sweet boy today? We have no doubt he will make his forever family very happy one day! Follow Monty on Instagram! https://www.instagram.com/adopt_monty"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:28Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/1/?bust=1497100358&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/1/?bust=1497100358&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/1/?bust=1497100358&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/1/?bust=1497100358&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/1/?bust=1497100358&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/2/?bust=1497100359&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/2/?bust=1497100359&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/2/?bust=1497100359&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/2/?bust=1497100359&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/2/?bust=1497100359&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/3/?bust=1497100359&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/3/?bust=1497100359&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/3/?bust=1497100359&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/3/?bust=1497100359&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295884/3/?bust=1497100359&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295884"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Pit Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Chewy"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Chewy can't decide what he loves the most - being scratched on the base of his tail or those wonderful tennis balls. This sweet boy, with his wiggly, bouncy walk, also loves getting attention and affection from his human friends. He has a playful, youthful spirit that makes him fun to take for walks, and he walks well on his leash. He's always up for playing fetch. Chewy enjoys learning new things and is in the Total Obedience Program. The Total Obedience Program (TOP) is modeled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Chewy has a personalized training plan and works with a volunteer trainer several times a week to help him learn the skills to become the best dog he can be! He is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' drop those tennis balls when he brings them back and coming when called. Once Chewy successfully completes all the skills on his training plan he will be considered TOP Dog Ready! Chewy is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Chewy after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 Chewy will fit well into a home, possibly with older kids who can continue his training. A couch to nap on would be a bonus he'd also love. Come visit and toss him a tennis ball! Follow Chewy on Instagram https://www.instagram.com/adopt_chewy/"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:40Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/1/?bust=1497100370&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/1/?bust=1497100370&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/1/?bust=1497100370&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/1/?bust=1497100370&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/1/?bust=1497100370&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/2/?bust=1497100371&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/2/?bust=1497100371&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/2/?bust=1497100371&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/2/?bust=1497100371&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/2/?bust=1497100371&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/3/?bust=1497100372&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/3/?bust=1497100372&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/3/?bust=1497100372&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/3/?bust=1497100372&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295906/3/?bust=1497100372&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295906"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": [{
+            "$t": "Labrador Retriever"
+          }, {
+            "$t": "Pit Bull Terrier"
+          }]
+        },
+        "name": {
+          "$t": "Chubbs"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Chubbs is a dog who is in love with life. He adores chasing balls, exploring his world when out for a walk or run, and then settling down for all kinds of cuddling and love. He's not above telling you that you are not nearly finished with the belly rubs and assorted loving touches should you stop too soon! Chubbs is a people-pleasing ball full of love. He should take to training easily and is going to want to be an active participant in the life of his forever family. He has shown appropriate interest in other dogs he meets. He's a strong, athletic boy who would likely be a great running, hiking or walking buddy but will happily run off a lot of energy chasing those balls. He loves playing fetch and is quite talented at it. If you would like to play and cuddle to your heart's content with an appreciative, happy, goofy, adorable wonderful young dog who would like nothing more than to be yours forever, please come meet Chubbs real soon!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:52Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/1/?bust=1496723661&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/1/?bust=1496723661&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/1/?bust=1496723661&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/1/?bust=1496723661&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/1/?bust=1496723661&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/2/?bust=1496723661&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/2/?bust=1496723661&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/2/?bust=1496723661&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/2/?bust=1496723661&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/2/?bust=1496723661&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/3/?bust=1496723662&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/3/?bust=1496723662&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/3/?bust=1496723662&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/3/?bust=1496723662&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295934/3/?bust=1496723662&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295934"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Muffin"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Affectionate, Sweet, Regal Muffin is a love muffin! She needs a little time to warm up to you, but once she does she will be looking to give 'rubby-rubs to her humans and will happily accept a good ear and chin rub in return. When you get home she will greet you at the door and she will guard your bed with every inch of her body when you're sleeping. This lovely senior lady really knows how to make you feel special! Muffin is low-maintenance and is very energetic for a cat her age. She loves to play, especially with her favorite toy which is simple, yet so entertaining...a good ol' piece of string. She could give much younger cats lessons in proper string pouncing--none of that on the floor stuff, she catches hers while it's still up in the air! Muffin doesn't scratch on furniture and is a pro at using the litter box. She's quiet most of the time, but will start talking when she gets hungry. When it comes to being petted, she doesn't like for you to try and pet her from an angle she can't see and would prefer that you don't touch her pretty tortie tail. But, she is happy to accept love from you, as long as it's given on her terms! The ideal home for Muffin would include a patient adopter who is willing to give her time to acclimate to her new surroundings. Muffin would be comfortable with older kids who give her the space she needs, but younger children would be a bit much for this old gal. Muffin isn't happy when she sees the other cats in her foster home. So, she may have been the only kitty in her previous household and would likely do best as the solo cat. A low-energy dog would probably be fine if a slow introduction is made. Give Muffin the love and understanding she needs and she'll spend the rest of her life returning the favor tenfold to her most special and adored person...you! All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Muffin, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:55Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/1/?bust=1496723674&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/1/?bust=1496723674&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/1/?bust=1496723674&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/1/?bust=1496723674&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/1/?bust=1496723674&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/2/?bust=1496723674&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/2/?bust=1496723674&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/2/?bust=1496723674&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/2/?bust=1496723674&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/2/?bust=1496723674&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/3/?bust=1496723675&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/3/?bust=1496723675&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/3/?bust=1496723675&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/3/?bust=1496723675&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295940/3/?bust=1496723675&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295940"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Labrador Retriever"
+          }
+        },
+        "name": {
+          "$t": "Roger"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Roger came to the shelter as a stray, nervous and uncomfortable with being handled or walked. Today, this sweet boy is a big goof who loves prancing around on walks, running after toys, playing fetch and sitting down for a good scratch from his new human friends. All to say that Roger has come a long way! And he's ready to take his next trot into his new life in a new forever home. He's a easygoing, adventurous boy who walks well on his leash. He's answering to the sit, down, place and beg commands and is working on shake and drop. And he's doing well in playgroup with his new doggie friends. A house with a yard to play in and humans to give him the affection he loves would be ideal for Roger. Come visit and see if he's perfect for your home."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:12:59Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
       }]
     },
     "header": {
       "timestamp": {
-        "$t": "2017-06-25T20:07:21Z"
+        "$t": "2017-06-27T21:40:05Z"
       },
       "status": {
         "message": {},

@@ -13,9 +13,10 @@
         <a href="/pets" class='btn red delete-pet-button' id='pet<%=pets[pet].id%>'>Delete</a>
       </div>
     <%}%>
-    <a class='waves-effect waves-light btn' href="#modal_addPet"><i class="material-icons">add</i>Add</a>
+    <a class='btn-large btn-floating green waves-effect waves-light btn' href="#modal_addPet"><i class="material-icons">add</i></a>
     <div id='modal_addPet' class='modal'>
         <div class="modal-content">
+            <h3>New Pet</h3>
             <form id="pet_add" action="/pet_add" method="POST">
               <label for="age">Age:</label>
               <input id="age" type="text" name="age" value="">

@@ -63,6 +63,6 @@ for (let x = 0; x < pets.length; x ++){
     petObjArray.push(petObj);
 
 }
-// console.log(petObjArray);
+console.log(petObjArray);
 
 module.exports = router
