@@ -1,0 +1,26 @@
+<% include ../partials/header %>
+<% include ../partials/login %>
+
+<table>
+<thead>
+  <tr>
+    <td>name</td>
+    <td>email</td>
+    <td>permission level</td>
+    <td>pets</td>
+  </tr>
+</thead>
+<tbody>
+  <% for (let x = 0; x < handlers.length; x++) { %>
+    <tr>
+      <td><%=handlers[x].last_name%>, <%=handlers[x].first_name%></td>
+      <td><%=handlers[x].email%></td>
+      <td><%=handlers[x].permission%></td>
+      <td></td>
+      <td><a>Edit</a></td>
+      <td><a>Delete</a></td>
+    </tr>
+  <% } %>
+</tbody>
+</table>
+<a>Add</a>

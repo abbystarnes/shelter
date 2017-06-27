@@ -7,10 +7,9 @@ const knex = require('../db/knex');
 
 
 describe('GET /pets', () => {
-    it('responds with JSON', done => {
+    it('responds with 200', done => {
         request(app)
-            .get('/sloths')
-            .expect('Content-Type', /json/)
+            .get('/pets')
             .expect(200, done);
     });
 });

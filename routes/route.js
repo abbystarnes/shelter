@@ -72,16 +72,28 @@ router.get('/pets', function(req, res, next) {
 });
 
 router.get('/pets/:id', function(req, res, next){
-  let id = typeof(req.params.id);
-  console.log(id);
+  let id = parseInt(req.params.id);
   let pet
-  knex('pets').where('id', 25).then((ret)=>{
+  knex('pets').where('id', id).then((ret)=>{
     pet = ret[0];
-    console.log(pet, 'pet');
+    // console.log(pet, 'pet');
     res.render('pages/pet', {
       pet: pet
     })
   })
+})
+
+router.get('/handlers', function(req, res, next){
+  let handlers
+  knex('handlers').then((ret) =>{
+    handlers = ret;
+    console.log(handlers);
+    res.render('pages/handlers', {
+      handlers: handlers
+    })
+  })
+
+
 })
 
 module.exports = router;
