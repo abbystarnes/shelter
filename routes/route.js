@@ -135,12 +135,16 @@ router.put('/handler_edit/:id', async(req, res, next) => {
 });
 
 router.delete('/handler_delete/:id', async(req, res, next) => {
+  let id = parseInt(req.body.id);
   console.log(req.body, 'return');
-  let handlers
-  knex('handlers').then((ret) =>{
-    handlers = ret;
-    res.render('pages/handlers', {
-      handlers: handlers
+  knex('handlers').del().where('id', id).then((ret) =>{
+    console.log(ret, 'deleted obj');
+    let handlers
+    knex('handlers').then((ret) =>{
+      handlers = ret;
+      res.render('pages/handlers', {
+        handlers: handlers
+      })
     })
   })
 

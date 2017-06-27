@@ -16,7 +16,7 @@ $(document).ready(function() {
             xhr2.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
             xhr2.onload = function() {
             };
-            xhr2.send('id_token='+id);
+            xhr2.send('id='+id);
           }catch(e){
             console.log('catch ', e);
           }
