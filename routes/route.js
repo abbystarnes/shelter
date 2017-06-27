@@ -110,6 +110,32 @@ router.post('/pet_add', async(req, res, next) => {
 
 });
 
+router.put('/pet_edit/:id', async(req, res, next) => {
+  let id = parseInt(req.params.id);
+  knex('pets').where('id', id).update({
+    status: req.body.status,
+    age: req.body.age,
+    size: req.body.size,
+    breed: req.body.breed,
+    name: req.body.name,
+    sex: req.body.sex,
+    description: req.body.description,
+    petID: req.body.petID,
+    type: req.body.type,
+    photo: req.body.photo
+  }, '*').then((ret) =>{
+    console.log(ret, 'return');
+    let pets
+    knex('pets').then((ret) =>{
+      pets = ret;
+      res.render('pages/pets', {
+        pets:pets
+      })
+    })
+  });
+
+});
+
 router.get('/handlers', function(req, res, next){
   let handlers
   knex('handlers').then((ret) =>{

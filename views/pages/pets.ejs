@@ -9,8 +9,8 @@
         <p><%=pets[pet].size%></p>
         <p><%=pets[pet].breed%></p>
         <p><%=pets[pet].sex%></p>
-        <a>Edit</a>
-        <a>Delete</a>
+        <a href="#modal<%=pets[pet].id%>">Edit</a>
+        <a href="/pets" class='delete-button' id='<%=pets[pet].id%>'>Delete</a>
       </div>
     <%}%>
     <a class='waves-effect waves-light btn' href="#modal_addPet">Add</a>
@@ -41,5 +41,36 @@
           <button type='submit' href="/pets" form="pet_add" class="modal-action modal-close waves-effect waves-green btn-flat">Submit</button>
         </div>
     </div>
+
+    <% for(let x = 0; x < pets.length; x++) { %>
+      <div id='modal<%=pets[x].id%>' class='modal'>
+          <div class="modal-content">
+              <form id="pet_edit/<%=pets[x].id%>" action="/pet_edit/<%=pets[x].id%>?_method=PUT" method="POST">
+              <label for="age">Age:</label>
+              <input id="age" type="text" name="age" value="<%=pets[x].age%>">
+              <label for="size">Size:</label>
+              <input id="size" type="text" name="size" value="<%=pets[x].size%>">
+              <label for="breed">Breed:</label>
+              <input id="breed" type="breed" name="breed" value="<%=pets[x].breed%>">
+              <label for="name">Name:</label>
+              <input id="name" type="text" name="name" value="<%=pets[x].name%>">
+              <label for="sex">Sex:</label>
+              <input id="sex" type="text" name="sex" value="<%=pets[x].sex%>">
+              <label for="description">Description:</label>
+              <input id="description" type="text" name="description" value="<%=pets[x].description%>">
+              <label for="petID">petID:</label>
+              <input id="petID" type="number" name="petID" value="<%=pets[x].petID%>">
+              <label for="type">Type:</label>
+              <input id="type" type="text" name="type" value="<%=pets[x].type%>">
+              <label for="photo">Photo:</label>
+              <input id="photo" type="text" name="photo" value="<%=pets[x].photo%>">
+              </form>
+            </div>
+
+          <div class="modal-footer">
+            <button type='submit' href="#!" form="pet_edit/<%=pets[x].id%>" class="modal-action modal-close waves-effect waves-green btn-flat">Update</button>
+          </div>
+      </div>
+    <% } %>
   </body>
 </html>
