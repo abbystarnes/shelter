@@ -2,18 +2,18 @@
 <% include ../partials/login %>
     <% for(pet in pets){%>
       <div class='card'>
+        <img src=<%=pets[pet].photo%>></img>
         <a href='/pets/<%=pets[pet].id%>'><h3><%=pets[pet].name%></h3></a>
-        <img style='height:100px' src=<%=pets[pet].photo%>></img>
         <p><%=pets[pet].status%></p>
         <p><%=pets[pet].age%></p>
         <p><%=pets[pet].size%></p>
         <p><%=pets[pet].breed%></p>
         <p><%=pets[pet].sex%></p>
-        <a href="#modal<%=pets[pet].id%>">Edit</a>
-        <a href="/pets" class='delete-pet-button' id='pet<%=pets[pet].id%>'>Delete</a>
+        <a class='btn blue btn-sm'href="#modal<%=pets[pet].id%>">Edit</a>
+        <a href="/pets" class='btn red delete-pet-button' id='pet<%=pets[pet].id%>'>Delete</a>
       </div>
     <%}%>
-    <a class='waves-effect waves-light btn' href="#modal_addPet">Add</a>
+    <a class='waves-effect waves-light btn' href="#modal_addPet"><i class="material-icons">add</i>Add</a>
     <div id='modal_addPet' class='modal'>
         <div class="modal-content">
             <form id="pet_add" action="/pet_add" method="POST">
@@ -71,5 +71,4 @@
           </div>
       </div>
     <% } %>
-  </body>
-</html>
+<% include ../partials/footer %>

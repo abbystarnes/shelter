@@ -1,8 +1,8 @@
 <% include ../partials/header %>
 <% include ../partials/login %>
       <div class='card'>
+        <img src=<%=pet.photo%>></img>
         <h2><%=pet.name%></h2>
-        <img style='height:100px' src=<%=pet.photo%>></img>
         <p><%=pet.status%></p>
         <p><%=pet.age%></p>
         <p><%=pet.size%></p>
@@ -10,5 +10,4 @@
         <p><%=pet.sex%></p>
         <a>Edit</a>
       </div>
-  </body>
-</html>
+<% include ../partials/footer %>

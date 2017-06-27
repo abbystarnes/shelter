@@ -1,3 +1,34 @@
+body {
+  background-color: #ADD8E6; }
 
+.btn {
+  background-color: #5190A5; }
+  .btn:hover {
+    background-color: #7EB8CB; }
+
+.card {
+  border-radius: 5px;
+  padding: 5%; }
+  .card img {
+    width: 100%;
+    display: block;
+    margin: 0 auto; }
+  .card h3 {
+    font-size: 1.5em; }
+
+h1, h2, h3, p, a, button {
+  color: #1f1f1f; }
+
+.wrapper {
+  padding-top: 1.5em;
+  width: 90%;
+  margin: 0 auto; }
+
+.title {
+  font-size: 2em; }
+
+.logo {
+  max-width: 100%;
+  margin-bottom: 1em; }
 
 /*# sourceMappingURL=main.css.map */
