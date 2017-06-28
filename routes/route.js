@@ -151,10 +151,10 @@ knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').then((ret)=
       type: req.body.type,
       photo: req.body.photo
     }, '*').then((ret) =>{
-      console.log(ret[0], 'new pet');
-      console.log(foster_id, 'foster id');
+      // console.log(ret[0], 'new pet');
+      // console.log(foster_id, 'foster id');
       let pet = ret[0];
-      console.log(pet.id, 'pet id');
+      // console.log(pet.id, 'pet id');
       knex('handlers_pets').insert ({
         handlers_id:foster_id,
         pets_id:pet.id
@@ -190,13 +190,16 @@ router.put('/pet_edit/:id', async(req, res, next) => {
     type: req.body.type,
     photo: req.body.photo
   }, '*').then((ret) =>{
-    // console.log(ret, 'return');
-    let pets
-    knex('pets').then((ret) =>{
-      pets = ret;
-      res.render('pages/pets', {
-        pets:pets
-      })
+    console.log(ret, 'return');
+    let pet = ret[0];
+    knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
+      // console.log(returned, 'joined');
+      let join = returned;
+      // console.log(join);
+      res.render('pages/pet', {
+        pet : pet,
+        join : join
+      });
     })
   });
 
