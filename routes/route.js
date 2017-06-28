@@ -253,6 +253,12 @@ router.get('/handlers', function(req, res, next){
 })
 
 router.post('/handler_add', async(req, res, next) => {
+  let pets = req.body.pets;
+  let petsArray = pets.split(',');
+  for (let x = 0; x < petsArray.length; x++){
+    petsArray[x] = petsArray[x].trim();
+  }
+  console.log(petsArray, 'pets');
   knex('handlers').insert({
     first_name: req.body.first_name,
     last_name: req.body.last_name,
@@ -294,6 +300,7 @@ router.put('/handler_edit/:id', async(req, res, next) => {
 router.delete('/handler_delete/:id', async(req, res, next) => {
   let id = parseInt(req.body.id);
   // console.log(req.body, 'return');
+  knex('handlers_pets').del().where('handlers_id', id);
   knex('handlers').del().where('id', id).then((ret) =>{
     // console.log(ret, 'deleted obj');
     let handlers
