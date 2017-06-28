@@ -178,29 +178,39 @@ knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').then((ret)=
 
 router.put('/pet_edit/:id', async(req, res, next) => {
   let id = parseInt(req.params.id);
-  knex('pets').where('id', id).update({
-    status: req.body.status,
-    age: req.body.age,
-    size: req.body.size,
-    breed: req.body.breed,
-    name: req.body.name,
-    sex: req.body.sex,
-    description: req.body.description,
-    petID: req.body.petID,
-    type: req.body.type,
-    photo: req.body.photo
-  }, '*').then((ret) =>{
-    console.log(ret, 'return');
-    let pet = ret[0];
-    knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
-      // console.log(returned, 'joined');
-      let join = returned;
-      // console.log(join);
-      res.render('pages/pet', {
-        pet : pet,
-        join : join
+  let foster_email = req.body.foster_email;
+  let foster_name = req.body.foster_name;
+  knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').where('email', foster_email).then((ret)=>{
+    let handlers_id = ret[0].handlers_id;
+    console.log(handlers_id, 'handlers id');
+    knex('handlers_pets').where('pets_id', id).update({
+      handlers_id: handlers_id
+    }).then((myRet)=>{
+      knex('pets').where('id', id).update({
+        status: req.body.status,
+        age: req.body.age,
+        size: req.body.size,
+        breed: req.body.breed,
+        name: req.body.name,
+        sex: req.body.sex,
+        description: req.body.description,
+        petID: req.body.petID,
+        type: req.body.type,
+        photo: req.body.photo
+      }, '*').then((ret) =>{
+        console.log(ret, 'return');
+        let pet = ret[0];
+        knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
+          // console.log(returned, 'joined');
+          let join = returned;
+          // console.log(join);
+          res.render('pages/pet', {
+            pet : pet,
+            join : join
+          });
+        })
       });
-    })
+    });
   });
 
 });

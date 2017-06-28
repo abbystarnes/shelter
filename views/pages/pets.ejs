@@ -75,6 +75,14 @@
               <input id="type" type="text" name="type" value="<%=pets[x].type%>">
               <label for="photo">Photo:</label>
               <input id="photo" type="text" name="photo" value="<%=pets[x].photo%>">
+              <%for(let x = 0; x < join.length; x++ ){%>
+                <%if((join[x].pets_id === pets[pet].id) && (join[x].handlers_id)){%>
+                  <label for="foster_name">Foster Name:</label>
+                  <input id="foster_name" type="text" name="foster_name" value="<%=join[x].first_name%>">
+                  <label for="foster_email">Foster Email:</label>
+                  <input id="foster_email" type="text" name="foster_email" value="<%=join[x].email%>">
+                <%}%>
+              <%}%>
               </form>
             </div>
           <div class="modal-footer">
