@@ -182,7 +182,7 @@ router.put('/pet_edit/:id', async(req, res, next) => {
   let foster_name = req.body.foster_name;
   knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').where('email', foster_email).then((ret)=>{
     let handlers_id = ret[0].handlers_id;
-    console.log(handlers_id, 'handlers id');
+    // console.log(handlers_id, 'handlers id');
     knex('handlers_pets').where('pets_id', id).update({
       handlers_id: handlers_id
     }).then((myRet)=>{
@@ -198,7 +198,7 @@ router.put('/pet_edit/:id', async(req, res, next) => {
         type: req.body.type,
         photo: req.body.photo
       }, '*').then((ret) =>{
-        console.log(ret, 'return');
+        // console.log(ret, 'return');
         let pet = ret[0];
         knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
           // console.log(returned, 'joined');
@@ -218,13 +218,16 @@ router.put('/pet_edit/:id', async(req, res, next) => {
 router.delete('/pet_delete/:id', async(req, res, next) => {
   let id = parseInt(req.body.id);
   // console.log(req.body, 'return');
-  knex('pets').del().where('id', id).then((ret) =>{
-    // console.log(ret, 'deleted obj');
-    let pets
-    knex('pets').then((ret) =>{
-      pets = ret;
-      res.render('pages/pets', {
-        pets: pets
+  knex('handlers_pets').del().where('id', id).then((ret)=>{
+    // console.log(ret, 'delete join');
+    knex('pets').del().where('id', id).then((ret) =>{
+      // console.log(ret, 'deleted obj');
+      let pets
+      knex('pets').then((ret) =>{
+        pets = ret;
+        res.render('pages/pets', {
+          pets: pets
+        })
       })
     })
   })
@@ -232,11 +235,19 @@ router.delete('/pet_delete/:id', async(req, res, next) => {
 });
 
 router.get('/handlers', function(req, res, next){
-  let handlers
-  knex('handlers').then((ret) =>{
-    handlers = ret;
-    res.render('pages/handlers', {
-      handlers: handlers
+  knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').join('pets', 'pets_id', 'pets.id').then((ret)=>{
+    let join = ret;
+    console.log(join.length, 'handlers join');
+    console.log(join[0].handlers_id, 'id');
+    // console.log(join[0].pets.name);
+    let handlers
+    knex('handlers').then((reta) =>{
+      handlers = reta;
+      // console.log(handlers, 'handlers');
+      res.render('pages/handlers', {
+        handlers: handlers,
+        join: join
+      })
     })
   })
 })

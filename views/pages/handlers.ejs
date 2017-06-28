@@ -16,7 +16,13 @@
         <td><%=handlers[x].last_name%>, <%=handlers[x].first_name%></td>
         <td><%=handlers[x].email%></td>
         <td><%=handlers[x].permission%></td>
-        <td></td>
+        <td>
+        <%for (let y = 0; y < join.length; y++){%>
+          <%if ((join[y].handlers_id === handlers[x].id) && join[y].name){%>
+            <%=join[y].name%>
+          <%}%>
+        <%}%>
+        </td>
         <td><a class='btn blue' href="#modal<%=handlers[x].id%>">Edit</a></td>
         <td><a class='btn red delete-button' href="/handlers" id='<%=handlers[x].id%>'>Delete</a></td>
       </tr>
