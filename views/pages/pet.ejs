@@ -9,6 +9,12 @@
         <p><%=pet.breed%></p>
         <p><%=pet.sex%></p>
         <p><%=pet.description%></p>
+        <%for(let x = 0; x < join.length; x++ ){%>
+          <%if((join[x].pets_id === pet.id) && (join[x].handlers_id)){%>
+            <p>Foster Contact: <%=join[x].first_name%></p>
+            <p>Foster Email: <%=join[x].email%></p>
+          <%}%>
+        <%}%>
         <a>Edit</a>
       </div>
 <% include ../partials/footer %>

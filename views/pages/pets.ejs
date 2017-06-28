@@ -9,6 +9,12 @@
         <p><%=pets[pet].size%></p>
         <p><%=pets[pet].breed%></p>
         <p><%=pets[pet].sex%></p>
+        <%for(let x = 0; x < join.length; x++ ){%>
+          <%if((join[x].pets_id === pets[pet].id) && (join[x].handlers_id)){%>
+            <p>Foster Contact: <%=join[x].first_name%></p>
+            <p>Foster Email: <%=join[x].email%></p>
+          <%}%>
+        <%}%>
         <a class='btn blue btn-sm'href="#modal<%=pets[pet].id%>">Edit</a>
         <a href="/pets" class='btn red delete-pet-button' id='pet<%=pets[pet].id%>'>Delete</a>
       </div>
@@ -36,6 +42,10 @@
               <input id="type" type="text" name="type" value="">
               <label for="photo">Photo:</label>
               <input id="photo" type="text" name="photo" value="">
+              <label for="foster_name">Foster Name:</label>
+              <input id="foster_name" type="text" name="foster_name" value="">
+              <label for="foster_email">Foster Email:</label>
+              <input id="foster_email" type="text" name="foster_email" value="">
             </form>
           </div>
         <div class="modal-footer">

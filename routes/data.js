@@ -6,6 +6,8 @@ var fs = require('fs');
 const path = require('path');
 const knex = require('../db/knex');
 
+// http://api.petfinder.com/shelter.getPets?key=f260ef829527050de0b7e3d00534913b&id=TX1218&count=20&format=json
+
 let myData;
 let pets;
 var jsonPath = path.join(__dirname, '..', 'public', 'data.json');
@@ -63,6 +65,6 @@ for (let x = 0; x < pets.length; x ++){
     petObjArray.push(petObj);
 
 }
-console.log(petObjArray);
+// console.log(petObjArray);
 
 module.exports = router
