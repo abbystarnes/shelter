@@ -16,13 +16,14 @@
         <td><%=handlers[x].last_name%>, <%=handlers[x].first_name%></td>
         <td><%=handlers[x].email%></td>
         <td><%=handlers[x].permission%></td>
-        <td>
+        <%let petArray = []; %>
         <%for (let y = 0; y < join.length; y++){%>
           <%if ((join[y].handlers_id === handlers[x].id) && join[y].name){%>
-            <%=join[y].name%>
+            <% petArray.push(join[y].name)%>
           <%}%>
         <%}%>
-        </td>
+        <% petString = petArray.join(', ');%>
+        <td><%=petString%></td>
         <td><a class='btn blue' href="#modal<%=handlers[x].id%>">Edit</a></td>
         <td><a class='btn red delete-button' href="/handlers" id='<%=handlers[x].id%>'>Delete</a></td>
       </tr>
