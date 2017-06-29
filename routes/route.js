@@ -328,6 +328,7 @@ router.post('/handler_add', async(req, res, next) => {
   });
 });
 
+// pets not rendering on edit first time, needs refresh FOR BOTH ADD AND EDIT
 router.put('/handler_edit/:id', async(req, res, next) => {
   let petsIDS = [];
   let petsArray = (req.body.pets).split(',');
@@ -347,7 +348,7 @@ router.put('/handler_edit/:id', async(req, res, next) => {
         for (let x = 0; x < petsArray.length; x++){
           knex('pets').where('pets.name', petsArray[x]).then((ret)=>{
             // console.log(ret[0].id, 'by pet name');
-            petsIDS.push(ret[0].id);
+            if (ret[0]) {petsIDS.push(ret[0].id)};
             if (x === (petsArray.length - 1)){
               resolve(petsIDS);
             }
@@ -358,10 +359,14 @@ router.put('/handler_edit/:id', async(req, res, next) => {
       retrievePetIds.then((ret)=>{
 
         let insertPetIDS = new Promise((resolve, reject)=>{
+          // console.log(petsIDS, 'to insert');
           for(let x = 0; x < petsIDS.length; x++){
+            console.log(id, petsIDS, 'id and petsIDS');
             knex('handlers_pets').insert({
               handlers_id: id,
               pets_id: petsIDS[x]
+            }).then((ret)=>{
+              console.log(ret, 'inserted objs');
             })
           }
           resolve('done');
@@ -371,9 +376,9 @@ router.put('/handler_edit/:id', async(req, res, next) => {
           let join
           let handlers
           knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').join('pets', 'pets_id', 'pets.id').then((ret)=>{
-            console.log(ret, 'return of mass join');
+            // console.log(ret, 'return of mass join');
             join = ret;
-            console.log(join, 'join');
+            // console.log(join, 'join');
             knex('handlers').then((reta) =>{
               handlers = reta;
               res.render('pages/handlers', {
