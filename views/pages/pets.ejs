@@ -1,5 +1,10 @@
 <% include ../partials/header %>
 <% include ../partials/login %>
+  <ul>
+    <li id='login-text' class="login-text">Logged In As: </li>
+    <li><a href='/logout' class='button-logout' id='button-logout' type="button" name="button">Log Out</a></li>
+    <li></li>
+  </ul>
   <div class="container">
     <% for(pet in pets){%>
       <div class='card card-pet'>

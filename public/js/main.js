@@ -5,8 +5,15 @@ $(document).ready(function() {
   if (fosterEmail[0]) {
     fosterEmail = fosterEmail[0].innerText;
   }
+  let login_notification = document.getElementById('login-text');
 
-  console.log(permission, 'cookie');
+
+  if (login_notification) {
+    login_notification.innerText += ' ' + email;
+  }
+
+
+  // console.log(permission, 'cookie');
   let btnManageHandlers = document.getElementById('btn-manage-handlers');
   let btnEditPetArray = document.getElementsByClassName('edit-pet-button');
   let btnDelPetArray = document.getElementsByClassName('delete-pet-button');
@@ -33,10 +40,10 @@ $(document).ready(function() {
   } else if (permission === 'foster'){
 
     if (btnEditPetArray) {
-      console.log('exists');
+      // console.log('exists');
       if (fosterEmail){
         if (fosterEmail === email){
-            console.log('matches');
+            // console.log('matches');
         } else {
           for (let x = 0; x < btnEditPetArray.length; x++){
             btnEditPetArray[x].className += ' hide'
@@ -46,13 +53,13 @@ $(document).ready(function() {
     }
 
     if (btnDelPetArray) {
-      console.log('exists');
+      // console.log('exists');
       for (let x = 0; x < btnDelPetArray.length; x++){
         btnDelPetArray[x].className += ' hide'
       }
     }
     if (btnAddPet) {
-      console.log('exists');
+      // console.log('exists');
       for (let x = 0; x < btnAddPet.length; x++){
       btnAddPet[x].className += ' hide'
       }
@@ -60,23 +67,23 @@ $(document).ready(function() {
 
   } else {
     if (btnManageHandlers) {
-      console.log('exists 2');
+      // console.log('exists 2');
       btnManageHandlers.className += ' hide'
     }
     if (btnEditPetArray) {
-      console.log('exists');
+      // console.log('exists');
       for (let x = 0; x < btnEditPetArray.length; x++){
         btnEditPetArray[x].className += ' hide'
       }
     }
     if (btnDelPetArray) {
-      console.log('exists');
+      // console.log('exists');
       for (let x = 0; x < btnDelPetArray.length; x++){
         btnDelPetArray[x].className += ' hide'
       }
     }
     if (btnAddPet) {
-      console.log('exists');
+      // console.log('exists');
       for (let x = 0; x < btnAddPet.length; x++){
       btnAddPet[x].className += ' hide'
       }

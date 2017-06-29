@@ -44,6 +44,7 @@
     "pg": "^6.4.0",
     "request": "^2.81.0",
     "route": "^0.2.5",
+    "shufflejs": "^4.2.0",
     "supertest": "^3.0.0"
   },
   "devDependencies": {
