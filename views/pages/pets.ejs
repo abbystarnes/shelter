@@ -5,18 +5,6 @@
       <div class='card card-pet'>
         <img src=<%=pets[pet].photo%>></img>
         <a href='/pets/<%=pets[pet].id%>'><h3><%=pets[pet].name%></h3></a>
-        <p><%=pets[pet].status%></p>
-        <p><%=pets[pet].age%></p>
-        <p><%=pets[pet].size%></p>
-        <p><%=pets[pet].breed%></p>
-        <p><%=pets[pet].sex%></p>
-        <%for(let x = 0; x < join.length; x++ ){%>
-          <%if((join[x].pets_id === pets[pet].id) && (join[x].handlers_id)){%>
-            <p>Foster Contact: <%=join[x].first_name%></p>
-            <p>Foster Email: <%=join[x].email%></p>
-          <%}%>
-        <%}%>
-        <a class='btn blue edit-pet-button btn-sm'href="#modal<%=pets[pet].id%>">Edit</a>
         <a href="/pets" class='btn red delete-pet-button' id='pet<%=pets[pet].id%>'>Delete</a>
       </div>
     <%}%>
@@ -55,41 +43,4 @@
         </div>
     </div>
 
-    <% for(let x = 0; x < pets.length; x++) { %>
-      <div id='modal<%=pets[x].id%>' class='modal'>
-          <div class="modal-content">
-              <form id="pet_edit/<%=pets[x].id%>" action="/pet_edit/<%=pets[x].id%>?_method=PUT" method="POST">
-              <label for="age">Age:</label>
-              <input id="age" type="text" name="age" value="<%=pets[x].age%>">
-              <label for="size">Size:</label>
-              <input id="size" type="text" name="size" value="<%=pets[x].size%>">
-              <label for="breed">Breed:</label>
-              <input id="breed" type="breed" name="breed" value="<%=pets[x].breed%>">
-              <label for="name">Name:</label>
-              <input id="name" type="text" name="name" value="<%=pets[x].name%>">
-              <label for="sex">Sex:</label>
-              <input id="sex" type="text" name="sex" value="<%=pets[x].sex%>">
-              <label for="description">Description:</label>
-              <input id="description" type="text" name="description" value="<%=pets[x].description%>">
-              <label for="petID">petID:</label>
-              <input id="petID" type="number" name="petID" value="<%=pets[x].petID%>">
-              <label for="type">Type:</label>
-              <input id="type" type="text" name="type" value="<%=pets[x].type%>">
-              <label for="photo">Photo:</label>
-              <input id="photo" type="text" name="photo" value="<%=pets[x].photo%>">
-              <%for(let x = 0; x < join.length; x++ ){%>
-                <%if((join[x].pets_id === pets[pet].id) && (join[x].handlers_id)){%>
-                  <label for="foster_name">Foster Name:</label>
-                  <input id="foster_name" type="text" name="foster_name" value="<%=join[x].first_name%>">
-                  <label for="foster_email">Foster Email:</label>
-                  <input id="foster_email" type="text" name="foster_email" value="<%=join[x].email%>">
-                <%}%>
-              <%}%>
-              </form>
-            </div>
-          <div class="modal-footer">
-            <button type='submit' href="#!" form="pet_edit/<%=pets[x].id%>" class="modal-action modal-close waves-effect waves-green btn-flat">Update</button>
-          </div>
-      </div>
-    <% } %>
 <% include ../partials/footer %>

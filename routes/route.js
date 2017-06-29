@@ -106,7 +106,7 @@ router.get('/pets/:id', function(req, res, next){
   knex('pets').where('id', id).then((ret)=>{
     pet = ret[0];
     knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
-      // console.log(returned, 'joined');
+      console.log(returned, 'joined');
       join = returned;
       // console.log(join);
       res.render('pages/pet', {
@@ -200,7 +200,7 @@ router.put('/pet_edit/:id', async(req, res, next) => {
         // console.log(ret, 'return');
         let pet = ret[0];
         knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
-          // console.log(returned, 'joined');
+          console.log(returned, 'joined');
           let join = returned;
           // console.log(join);
           res.render('pages/pet', {

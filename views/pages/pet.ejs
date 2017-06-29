@@ -15,6 +15,45 @@
             <p>Foster Email: <%=join[x].email%></p>
           <%}%>
         <%}%>
-        <a>Edit</a>
+        <a class='btn blue edit-pet-button btn-sm'href="#modal<%=pet.id%>">Edit</a>
+      </div>
+      <div id='modal<%=pet.id%>' class='modal'>
+          <div class="modal-content">
+              <form id="pet_edit/<%=pet.id%>" action="/pet_edit/<%=pet.id%>?_method=PUT" method="POST">
+              <label for="age">Age:</label>
+              <input id="age" type="text" name="age" value="<%=pet.age%>">
+              <label for="size">Size:</label>
+              <input id="size" type="text" name="size" value="<%=pet.size%>">
+              <label for="breed">Breed:</label>
+              <input id="breed" type="breed" name="breed" value="<%=pet.breed%>">
+              <label for="name">Name:</label>
+              <input id="name" type="text" name="name" value="<%=pet.name%>">
+              <label for="sex">Sex:</label>
+              <input id="sex" type="text" name="sex" value="<%=pet.sex%>">
+              <label for="description">Description:</label>
+              <input id="description" type="text" name="description" value="<%=pet.description%>">
+              <label for="petID">petID:</label>
+              <input id="petID" type="number" name="petID" value="<%=pet.petID%>">
+              <label for="type">Type:</label>
+              <input id="type" type="text" name="type" value="<%=pet.type%>">
+              <label for="photo">Photo:</label>
+              <input id="photo" type="text" name="photo" value="<%=pet.photo%>">
+              <%let foster_name_store%>
+              <%let foster_email_store%>
+              <%for(let x = 0; x < join.length; x++ ){%>
+                <%if((join[x].pets_id === pet.id) && (join[x].handlers_id)){%>
+                    <% foster_name_store = join[x].first_name%>
+                    <% foster_eamil_store = join[x].email%>
+                <%}%>
+              <%}%>
+                  <label for="foster_name">Foster Name:</label>
+                  <input id="foster_name" type="text" name="foster_name" value="<%=foster_name_store%>">
+                  <label for="foster_email">Foster Email:</label>
+                  <input id="foster_email" type="text" name="foster_email" value="<%=foster_email_store%>">
+              </form>
+            </div>
+          <div class="modal-footer">
+            <button type='submit' href="#!" form="pet_edit/<%=pet.id%>" class="modal-action modal-close waves-effect waves-green btn-flat">Update</button>
+          </div>
       </div>
 <% include ../partials/footer %>

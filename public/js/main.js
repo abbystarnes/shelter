@@ -133,3 +133,17 @@ function onSignIn(googleUser) {
     console.log('catch ', e);
   }
 }
+
+
+// pets removed content
+// <p><%=pets[pet].status%></p>
+// <p><%=pets[pet].age%></p>
+// <p><%=pets[pet].size%></p>
+// <p><%=pets[pet].breed%></p>
+// <p><%=pets[pet].sex%></p>
+// <%for(let x = 0; x < join.length; x++ ){%>
+//   <%if((join[x].pets_id === pets[pet].id) && (join[x].handlers_id)){%>
+//     <p>Foster Contact: <%=join[x].first_name%></p>
+//     <p>Foster Email: <%=join[x].email%></p>
+//   <%}%>
+// <%}%>
