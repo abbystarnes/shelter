@@ -1,3 +1,5 @@
+
+
 $(document).ready(function() {
   let permission = getCookie('permission');
   let email = getCookie('email');

@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="/css/main.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src='/js/main.js'>
+    <script type="text/javascript" src="/js/main.js"></script>
+    <script type="text/javascript" src='/js/mixitup.min.js'></script>
     </script>
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     <meta name="google-signin-client_id" content="46396124230-5mojh5ic5690t3fa19dbv505p4u52lc2.apps.googleusercontent.com">
@@ -16,5 +17,12 @@
   <body>
     <div class="wrapper">
     <a href="/"><img class='logo' src="../images/shelter.png" alt=""></a>
-    <a class="btn" href="/">Pets</a>
-    <a id='btn-manage-handlers' class="btn btn-manage-handlers" href="/handlers">Manage Handlers</a>
+    <ul id='nav-mobile'>
+      <li><a class="" href="/">Pets</a></li>
+      <li><a id='btn-manage-handlers' class="btn-manage-handlers" href="/handlers">Employees</a></li>
+      <li><a class='waves-effect waves-light' href="#modal-login">Login</a></li>
+    </ul>
+    <ul>
+      <li id='login-text' class="login-text">Logged In As: </li>
+      <li><a href='/logout' class='button-logout' id='button-logout' type="button" name="button">Log Out</a></li>
+    </ul>
