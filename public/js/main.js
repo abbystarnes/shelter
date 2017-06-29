@@ -1,5 +1,11 @@
 $(document).ready(function() {
   let permission = getCookie('permission');
+  let email = getCookie('email');
+  let fosterEmail = document.getElementsByClassName('foster-email');
+  if (fosterEmail[0]) {
+    fosterEmail = fosterEmail[0].innerText;
+  }
+
   console.log(permission, 'cookie');
   let btnManageHandlers = document.getElementById('btn-manage-handlers');
   let btnEditPetArray = document.getElementsByClassName('edit-pet-button');
@@ -25,18 +31,33 @@ $(document).ready(function() {
   if (permission === 'employee'){
 
   } else if (permission === 'foster'){
-    // if (btnManageHandlers) {
-    //   console.log('exists');
-    //   btnManageHandlers.className += ' hide'
-    // }
-    // if (btnEditPet) {
-    //   console.log('exists');
-    //   btnEditPet.className += ' hide'
-    // }
-    // if (btnManageHandlers) {
-    //   console.log('exists');
-    //   btnManageHandlers.className += ' hide'
-    // }
+
+    if (btnEditPetArray) {
+      console.log('exists');
+      if (fosterEmail){
+        if (fosterEmail === email){
+            console.log('matches');
+        } else {
+          for (let x = 0; x < btnEditPetArray.length; x++){
+            btnEditPetArray[x].className += ' hide'
+          }
+        }
+      }
+    }
+
+    if (btnDelPetArray) {
+      console.log('exists');
+      for (let x = 0; x < btnDelPetArray.length; x++){
+        btnDelPetArray[x].className += ' hide'
+      }
+    }
+    if (btnAddPet) {
+      console.log('exists');
+      for (let x = 0; x < btnAddPet.length; x++){
+      btnAddPet[x].className += ' hide'
+      }
+    }
+
   } else {
     if (btnManageHandlers) {
       console.log('exists 2');

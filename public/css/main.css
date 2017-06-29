@@ -20,6 +20,12 @@ body {
     font-size: 1.5em;
     color: #5190A5; }
 
+.card-pet-single {
+  margin: 0 auto; }
+  .card-pet-single img {
+    max-width: 300px;
+    margin: 0; }
+
 h1, h2, h3, p, a, button {
   color: #1f1f1f; }
 

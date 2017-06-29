@@ -1,6 +1,6 @@
 <% include ../partials/header %>
 <% include ../partials/login %>
-      <div class='card card-pet'>
+      <div class='card card-pet-single'>
         <img src=<%=pet.photo%>></img>
         <h2><%=pet.name%></h2>
         <p><%=pet.status%></p>
@@ -12,7 +12,7 @@
         <%for(let x = 0; x < join.length; x++ ){%>
           <%if((join[x].pets_id === pet.id) && (join[x].handlers_id)){%>
             <p>Foster Contact: <%=join[x].first_name%></p>
-            <p>Foster Email: <%=join[x].email%></p>
+            <p>Foster Email: <span class='foster-email'><%=join[x].email%></span></p>
           <%}%>
         <%}%>
         <a class='btn blue edit-pet-button btn-sm'href="#modal<%=pet.id%>">Edit</a>

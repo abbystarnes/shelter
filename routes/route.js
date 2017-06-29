@@ -29,12 +29,18 @@ router.post('/login_gmail', async(req, res, next) => {
         knex('handlers').where('email', payload.email).then((ret)=>{
           if (ret[0]) {
             let permissionLevel = ret[0].permission;
-            res.cookie('permission' , permissionLevel).send('Cookie is set');
+            let email = ret[0].email;
+            res.cookie('permission' , permissionLevel)
+            res.cookie('email' , email);
+            res.send('Cookie is set')
           }
           else {
             console.log('no handler has this gmail');
             let permissionLevel = '';
-            res.cookie('permission' , permissionLevel).send('Cookie is set');
+            let email = '';
+            res.cookie('permission' , permissionLevel);
+            res.cookie('email' , email);
+            res.send('Cookie is set');
           }
         })
       });
@@ -48,8 +54,12 @@ router.post('/login_local', async(req, res, next) => {
       .then((ret)=>{
         if (ret) {
           let permissionLevel = data[0].permission;
+          let email = data[0].email;
+          console.log(permissionLevel, 'permission level');
           if (permissionLevel) {
-            res.cookie('permission' , permissionLevel).send('Cookie is set');
+            res.cookie('permission' , permissionLevel)
+            res.cookie('email' , email);
+            res.send('Cookie is set')
           } else {
             console.log('no permission level associated with profile');
           }
@@ -106,7 +116,7 @@ router.get('/pets/:id', function(req, res, next){
   knex('pets').where('id', id).then((ret)=>{
     pet = ret[0];
     knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
-      console.log(returned, 'joined');
+      // console.log(returned, 'joined');
       join = returned;
       // console.log(join);
       res.render('pages/pet', {
@@ -200,7 +210,7 @@ router.put('/pet_edit/:id', async(req, res, next) => {
         // console.log(ret, 'return');
         let pet = ret[0];
         knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
-          console.log(returned, 'joined');
+          // console.log(returned, 'joined');
           let join = returned;
           // console.log(join);
           res.render('pages/pet', {

@@ -33,6 +33,16 @@ body {
   }
 }
 
+.card-pet-single{
+  img {
+    max-width: 300px;
+    margin: 0;
+    // margin: 0 auto;
+  }
+  // max-width: 800px;
+  margin: 0 auto;
+}
+
 h1, h2, h3, p, a, button {
   color: $text;
 }
