@@ -14,7 +14,6 @@ router.use(methodOverride('X-HTTP-Method-Override'))
 
 //GMAIL LOGIN
 router.post('/login_gmail', async(req, res, next) => {
-
     let token = req.body.id_token;
     var auth = new GoogleAuth;
     var client = new auth.OAuth2('46396124230-5mojh5ic5690t3fa19dbv505p4u52lc2.apps.googleusercontent.com', '', '');
@@ -34,16 +33,15 @@ router.post('/login_gmail', async(req, res, next) => {
           }
           else {
             console.log('no handler has this gmail');
+            let permissionLevel = '';
+            res.cookie('permission' , permissionLevel).send('Cookie is set');
           }
         })
-
       });
-
 });
 
 //LOCAL LOGIN
 router.post('/login_local', async(req, res, next) => {
-  // let hashedPWD;
   knex('handlers').where('email', req.body.email).then((data)=>{
     if (data[0]) {
       bcrypt.compare(req.body.pwd, data[0].hashed_pwd)
@@ -63,14 +61,15 @@ router.post('/login_local', async(req, res, next) => {
       console.log('no database emails match given email');
     }
   })
-
 });
 
+// A - ALL // E - EDIT, DELETE, MANAGE HANDLERS
 router.get('/', async(req, res, next) => {
   let pets
   let join
   knex('pets').then((ret) => {
     pets = ret;
+    console.log(res.cookie, 'cookie');
     knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
       // console.log(returned, 'joined');
       join = returned;

@@ -1,7 +1,8 @@
 <% include ../partials/header %>
 <% include ../partials/login %>
+  <div class="container">
     <% for(pet in pets){%>
-      <div class='card'>
+      <div class='card card-pet'>
         <img src=<%=pets[pet].photo%>></img>
         <a href='/pets/<%=pets[pet].id%>'><h3><%=pets[pet].name%></h3></a>
         <p><%=pets[pet].status%></p>
@@ -15,11 +16,12 @@
             <p>Foster Email: <%=join[x].email%></p>
           <%}%>
         <%}%>
-        <a class='btn blue btn-sm'href="#modal<%=pets[pet].id%>">Edit</a>
+        <a class='btn blue edit-pet-button btn-sm'href="#modal<%=pets[pet].id%>">Edit</a>
         <a href="/pets" class='btn red delete-pet-button' id='pet<%=pets[pet].id%>'>Delete</a>
       </div>
     <%}%>
-    <a class='btn-large btn-floating green waves-effect waves-light btn' href="#modal_addPet"><i class="material-icons">add</i></a>
+  </div>
+    <a class='btn-large btn-floating green waves-effect waves-light btn btn-pet-add' href="#modal_addPet"><i class="material-icons">add</i></a>
     <div id='modal_addPet' class='modal'>
         <div class="modal-content">
             <h3>New Pet</h3>

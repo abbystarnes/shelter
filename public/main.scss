@@ -1,5 +1,7 @@
 // sass --watch public/main.scss:public/css/main.css
-
+* {
+  box-sizing: border-box;
+}
 $text: #1f1f1f;
 $background: #ADD8E6;
 $dark: #5190A5;
@@ -17,7 +19,7 @@ body {
   }
 }
 
-.card {
+.card, .card-pet {
   border-radius: 5px;
   padding: 5%;
   img {
@@ -40,6 +42,7 @@ h1, h2, h3, p, a, button {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 2em;
+  max-width: 1200px;
 }
 
 .title {
@@ -56,5 +59,28 @@ h1, h2, h3, p, a, button {
 }
 
 .hide {
+  display: none;
+}
 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media only screen and (min-width: 550px) {
+  .card-pet {
+    width: 45%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .card-pet {
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+  }
 }

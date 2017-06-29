@@ -1,4 +1,68 @@
 $(document).ready(function() {
+  let permission = getCookie('permission');
+  console.log(permission, 'cookie');
+  let btnManageHandlers = document.getElementById('btn-manage-handlers');
+  let btnEditPetArray = document.getElementsByClassName('edit-pet-button');
+  let btnDelPetArray = document.getElementsByClassName('delete-pet-button');
+  let btnAddPet = document.getElementsByClassName('btn-pet-add');
+
+  function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+  }
+
+  if (permission === 'employee'){
+
+  } else if (permission === 'foster'){
+    // if (btnManageHandlers) {
+    //   console.log('exists');
+    //   btnManageHandlers.className += ' hide'
+    // }
+    // if (btnEditPet) {
+    //   console.log('exists');
+    //   btnEditPet.className += ' hide'
+    // }
+    // if (btnManageHandlers) {
+    //   console.log('exists');
+    //   btnManageHandlers.className += ' hide'
+    // }
+  } else {
+    if (btnManageHandlers) {
+      console.log('exists 2');
+      btnManageHandlers.className += ' hide'
+    }
+    if (btnEditPetArray) {
+      console.log('exists');
+      for (let x = 0; x < btnEditPetArray.length; x++){
+        btnEditPetArray[x].className += ' hide'
+      }
+    }
+    if (btnDelPetArray) {
+      console.log('exists');
+      for (let x = 0; x < btnDelPetArray.length; x++){
+        btnDelPetArray[x].className += ' hide'
+      }
+    }
+    if (btnAddPet) {
+      console.log('exists');
+      for (let x = 0; x < btnAddPet.length; x++){
+      btnAddPet[x].className += ' hide'
+      }
+    }
+  }
+
+
     $('.modal').modal();
 
     var buttons = document.getElementsByClassName('delete-button');
