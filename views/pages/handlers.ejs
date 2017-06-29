@@ -67,7 +67,15 @@
             <label for="permission">Permission Level:</label>
             <input value='<%=handlers[x].permission%>' id="permission" type="text" name="permission" value="">
             <label for="pets">Pets:</label>
-            <input id="pets" type="text" name="pets" value="">
+            <%let petArray = []; %>
+            <%let petString = ''; %>
+            <%for (let y = 0; y < join.length; y++){%>
+              <%if ((join[y].handlers_id === handlers[x].id) && join[y].name){%>
+                <% petArray.push(join[y].name)%>
+              <%}%>
+            <%}%>
+            <% petString = petArray.join(', ');%>
+            <input id="pets" type="text" name="pets" value="<%=petString%>">
           </form>
         </div>
 

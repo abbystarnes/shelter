@@ -237,8 +237,8 @@ router.delete('/pet_delete/:id', async(req, res, next) => {
 router.get('/handlers', function(req, res, next){
   knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').join('pets', 'pets_id', 'pets.id').then((ret)=>{
     let join = ret;
-    console.log(join.length, 'handlers join');
-    console.log(join[0].handlers_id, 'id');
+    // console.log(join.length, 'handlers join');
+    // console.log(join[0].handlers_id, 'id');
     // console.log(join[0].pets.name);
     let handlers
     knex('handlers').then((reta) =>{
@@ -308,9 +308,9 @@ router.post('/handler_add', async(req, res, next) => {
         insertJoin.then(()=>{
           console.log('got here 2');
           knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').join('pets', 'pets_id', 'pets.id').then((ret)=>{
-            console.log(ret, 'return of mass join');
+            console.log(ret[0].email, 'return of mass join');
             join = ret;
-            console.log(join, 'join');
+            console.log(join[0].email, 'join');
             knex('handlers').then((reta) =>{
               handlers = reta;
               res.render('pages/handlers', {
@@ -329,6 +329,11 @@ router.post('/handler_add', async(req, res, next) => {
 });
 
 router.put('/handler_edit/:id', async(req, res, next) => {
+  let petsIDS = [];
+  let petsArray = (req.body.pets).split(',');
+  for (let x = 0; x < petsArray.length; x++){
+    petsArray[x] = petsArray[x].trim();
+  }
   let id = parseInt(req.params.id);
   knex('handlers').where('id', id).update({
     first_name: req.body.first_name,
@@ -336,16 +341,51 @@ router.put('/handler_edit/:id', async(req, res, next) => {
     email: req.body.email,
     permission: req.body.permission
   }, '*').then((ret) =>{
-    // console.log(ret, 'return');
-    let handlers
-    knex('handlers').then((ret) =>{
-      handlers = ret;
-      res.render('pages/handlers', {
-        handlers: handlers
+    knex('handlers_pets').del().where('id', id).then((ret)=>{
+      let retrievePetIds = new Promise((resolve, reject) => {
+        // make array of pet ids
+        for (let x = 0; x < petsArray.length; x++){
+          knex('pets').where('pets.name', petsArray[x]).then((ret)=>{
+            // console.log(ret[0].id, 'by pet name');
+            petsIDS.push(ret[0].id);
+            if (x === (petsArray.length - 1)){
+              resolve(petsIDS);
+            }
+          })
+        }
+      });
+
+      retrievePetIds.then((ret)=>{
+
+        let insertPetIDS = new Promise((resolve, reject)=>{
+          for(let x = 0; x < petsIDS.length; x++){
+            knex('handlers_pets').insert({
+              handlers_id: id,
+              pets_id: petsIDS[x]
+            })
+          }
+          resolve('done');
+        })
+
+        insertPetIDS.then((ret)=>{
+          let join
+          let handlers
+          knex('handlers').join('handlers_pets', 'handlers_id', 'handlers.id').join('pets', 'pets_id', 'pets.id').then((ret)=>{
+            console.log(ret, 'return of mass join');
+            join = ret;
+            console.log(join, 'join');
+            knex('handlers').then((reta) =>{
+              handlers = reta;
+              res.render('pages/handlers', {
+                handlers: handlers,
+                join: join
+              });
+            });
+          });
+        })
       })
     })
   });
-
 });
 
 router.delete('/handler_delete/:id', async(req, res, next) => {
