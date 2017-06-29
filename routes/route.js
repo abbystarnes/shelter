@@ -273,13 +273,16 @@ router.post('/handler_add', async(req, res, next) => {
     permission: permission
   }).then(()=>{
     // console.log('here');
-    knex('handlers').where('email', req.body.email).then((newHandlerFromDB)=>{
+    knex('handlers').where('email', email).then((newHandlerFromDB)=>{
+      // console.log(newHandlerFromDB);
       let id = newHandlerFromDB[0].id;
+      // console.log(id, 'id');
       let retrievePetIds = new Promise((resolve, reject) => {
         // make array of pet ids
         for (let x = 0; x < petsArray.length; x++){
           knex('pets').where('pets.name', petsArray[x]).then((ret)=>{
-            // console.log(ret[0].id, 'by pet name');
+            // console.log(ret, 'return');
+            //  console.log(ret[0].id, 'by pet name');
             petsIDS.push(ret[0].id);
             if (x === (petsArray.length - 1)){
               resolve(petsIDS);
@@ -299,10 +302,18 @@ router.post('/handler_add', async(req, res, next) => {
               handlers_id: id,
               pets_id: petsIDS[x]
             }).then((ret)=>{
+              console.log(x, 'got here 3');
+              console.log((petsIDS.length -1), 'pidl-1');
+              if(x === (petsIDS.length -1)){
+                console.log('got here 4');
+                resolve('done');
+                // SEEMS TO BE A bug w/2 pet names
+              }
               // console.log(ret, 'each new join');
             });
+            // KNEX NOT FINISHING BEFORE PROMISE FINISHES ,, NEED TO REORG SO
           }
-          resolve('done');
+
         });
         console.log('got here 1');
         insertJoin.then(()=>{
@@ -342,7 +353,7 @@ router.put('/handler_edit/:id', async(req, res, next) => {
     email: req.body.email,
     permission: req.body.permission
   }, '*').then((ret) =>{
-    knex('handlers_pets').del().where('id', id).then((ret)=>{
+    knex('handlers_pets').del().where('handlers_id', id).then((ret)=>{
       let retrievePetIds = new Promise((resolve, reject) => {
         // make array of pet ids
         for (let x = 0; x < petsArray.length; x++){
@@ -357,7 +368,7 @@ router.put('/handler_edit/:id', async(req, res, next) => {
       });
 
       retrievePetIds.then((ret)=>{
-
+// NEED TO DELETE OLD PETS LIST
         let insertPetIDS = new Promise((resolve, reject)=>{
           // console.log(petsIDS, 'to insert');
           for(let x = 0; x < petsIDS.length; x++){
@@ -367,9 +378,11 @@ router.put('/handler_edit/:id', async(req, res, next) => {
               pets_id: petsIDS[x]
             }).then((ret)=>{
               console.log(ret, 'inserted objs');
+              if(x === (petsIDS.length -1)){
+                resolve('done');
+              }
             })
           }
-          resolve('done');
         })
 
         insertPetIDS.then((ret)=>{
