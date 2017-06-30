@@ -21,7 +21,7 @@ router.get('/logout', async(req, res, next) => {
   let join
   knex('pets').then((ret) => {
     pets = ret;
-    console.log(res.cookie, 'cookie');
+    // console.log(res.cookie, 'cookie');
     knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
       // console.log(returned, 'joined');
       join = returned;
@@ -105,7 +105,9 @@ router.post('/login_gmail', async(req, res, next) => {
 
 //LOCAL LOGIN
 router.post('/login_local', async(req, res, next) => {
-  knex('handlers').where('email', req.body.email).then((data)=>{
+  console.log(req.body);
+  let email = req.body.email;
+  knex('handlers').where('email', email).then((data)=>{
     if (data[0]) {
       bcrypt.compare(req.body.pwd, data[0].hashed_pwd)
       .then((ret)=>{

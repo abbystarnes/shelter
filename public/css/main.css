@@ -4,6 +4,9 @@
 body {
   background-color: #ADD8E6; }
 
+.button-logout {
+  text-decoration: underline; }
+
 .login {
   margin-bottom: 1em; }
 

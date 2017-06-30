@@ -4,7 +4,7 @@
   "petfinder": {
     "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
     "lastOffset": {
-      "$t": "20"
+      "$t": "45"
     },
     "pets": {
       "pet": [{
@@ -129,7 +129,7 @@
           "$t": "F"
         },
         "description": {
-          "$t": "Coco can think of nothing she would enjoy more than a household where she could have love pretty much all the time. Yes, she is that responsive and loving with humans. That said, she is getting along famously with her resident foster dog sibling and they are finding it fun to play keep-away and tug with toys, so she's got a playful streak as well. Coco is fully house trained and appears crate trained, too. However, unless a human wants to be in there with her, she would much prefer to be out and about with her family than in her crate. She does get a titch restless if left alone in the crate for too long. Coco has spurts of energy when play is her first agenda, but she would be very happy in a home where there's far more snuggle and chill out time than busy activity time. She's a happy go lucky gal; all you have to do is look her way and her tail starts spinning in glee. Oh, since she is so well adjusted to life as she knows it, I forgot to mention that she is a tripod, one who gets along very well with three legs. Come meet Coco today, she doesn't want you to lose out on any more time to pet and snuggle with her. June 27, 2017, 4:47 am"
+          "$t": "Coco can think of nothing she would enjoy more than a household where she could have love pretty much all the time. Yes, she is that responsive and loving with humans. That said, she is getting along famously with her resident foster dog sibling and they are finding it fun to play keep-away and tug with toys, so she's got a playful streak as well. Coco is fully house trained and appears crate trained, too. However, unless a human wants to be in there with her, she would much prefer to be out and about with her family than in her crate. She does get a titch restless if left alone in the crate for too long. Coco has spurts of energy when play is her first agenda, but she would be very happy in a home where there's far more snuggle and chill out time than busy activity time. She's a happy go lucky gal; all you have to do is look her way and her tail starts spinning in glee. Oh, since she is so well adjusted to life as she knows it, I forgot to mention that she is a tripod, one who gets along very well with three legs. Come meet Coco today, she doesn't want you to lose out on any more time to pet and snuggle with her. June 30, 2017, 4:22 am"
         },
         "mix": {
           "$t": "no"
@@ -138,7 +138,7 @@
           "$t": "TX1218"
         },
         "lastUpdate": {
-          "$t": "2017-06-27T09:25:31Z"
+          "$t": "2017-06-30T09:23:39Z"
         },
         "animal": {
           "$t": "Dog"
@@ -2619,11 +2619,3265 @@
         "animal": {
           "$t": "Dog"
         }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/1/?bust=1496723686&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/1/?bust=1496723686&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/1/?bust=1496723686&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/1/?bust=1496723686&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/1/?bust=1496723686&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/2/?bust=1496723687&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/2/?bust=1496723687&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/2/?bust=1496723687&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/2/?bust=1496723687&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/2/?bust=1496723687&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/3/?bust=1496723687&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/3/?bust=1496723687&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/3/?bust=1496723687&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/3/?bust=1496723687&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295949/3/?bust=1496723687&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295949"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Pit Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Moose"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "In a word, Moose is magnificent! Just look at him and you'll see he's a sight to behold. This big lug of a dog has captured the hearts of many ladies here at the shelter. With his movie star good looks and strong, silent demeanor, it's easy to see how he became such a heartthrob! Good looks aside, Moose has so much to offer. Like James Dean, he's a bit of shy guy, but it won't take long for him to warm up and nuzzle you with that jowly face. He appears to be a serious dude in the kennel, but he morphs into a puppy when he's chasing his toys or taking a dip in the pool. His two passions in life are fetch and swimming. So if you're looking for an athletic, fun-loving guy, Moose is it! If you're a lover of the great outdoors, Moose is your perfect fit. He is a great walking and running companion. He goes out with his Virtual Foster friend every night for evening walks around the ball field. He's a gentleman on the leash and is learning some new skills. He's eager to please and will work hard for treats! Also, we should note that he appears to be potty trained and could potentially live in a home with a well-matched pup. So what do you say? Why not stop by APA today and see for yourself how much our Magnificent Moose has to offer? If you can look past his shyness, you'll see how much fun you both could have together!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:02Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/1/?bust=1496723698&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/1/?bust=1496723698&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/1/?bust=1496723698&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/1/?bust=1496723698&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/1/?bust=1496723698&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/2/?bust=1496723698&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/2/?bust=1496723698&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/2/?bust=1496723698&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/2/?bust=1496723698&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/2/?bust=1496723698&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/3/?bust=1496723699&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/3/?bust=1496723699&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/3/?bust=1496723699&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/3/?bust=1496723699&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295953/3/?bust=1496723699&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295953"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Rilo"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Independent, Goofy, Hefty Want a cat that will make you laugh? Then Rilo is your gal! This chunky lady is a hoot, and she will make you chuckle to watch her chase her toys around. Rilo loves to watch the birds fly by the window and will take naps in the sunbeams. She also loves to eat (if you couldn't tell). She is a polite house guest and always goes in her litter box; she knows that lady cats must have good bathroom manners! Rilo isn't too much of a fan of other cats, but doesn't mind being around cats that respect her space. She can get over-stimulated during play, so we recommend a home with older children. If you want a goofy, playful, and independent companion, then Rilo is the perfect cat for you! All APA! cats and kittens are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team.?? For further information or to meet Rilo, please emailadopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:06Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/1/?bust=1497100396&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/1/?bust=1497100396&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/1/?bust=1497100396&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/1/?bust=1497100396&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/1/?bust=1497100396&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/2/?bust=1497100396&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/2/?bust=1497100396&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/2/?bust=1497100396&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/2/?bust=1497100396&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/2/?bust=1497100396&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/3/?bust=1497100397&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/3/?bust=1497100397&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/3/?bust=1497100397&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/3/?bust=1497100397&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295960/3/?bust=1497100397&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295960"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "German Shepherd Dog"
+          }
+        },
+        "name": {
+          "$t": "Prieta"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Prieta is a sweet girl who has been known to joyfully break out into running the cutest zoomies (sometimes while carrying a rope toy!) Prieta enjoys walks, wading in the water, and just sitting next to you with her head in your lap and watching the world go by. If there are two laps in the vicinity, she's an equal opportunity snuggler and will walk back and forth between the two to lean in for pets. She also likes toys (rope toys are her current favorite) and is happy to entertain herself with them. Prieta is a smart girl and learns new skills quickly. So smart, in fact, that she figured out the optimal way to get treats - by sticking her head in your treat pouch instead of waiting on you to slowly dole them out one at a time. Such a problem solver! She loves people, and once she knows and trusts you, she will be your friend for life. Prieta hopes to find a home with a loving, active person who wants to take her for those walks and jogs, then will curl up with her on the couch. If that sounds like you, come meet this beautiful girl."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:17Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/1/?bust=1496723723&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/1/?bust=1496723723&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/1/?bust=1496723723&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/1/?bust=1496723723&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/1/?bust=1496723723&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/2/?bust=1496723723&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/2/?bust=1496723723&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/2/?bust=1496723723&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/2/?bust=1496723723&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/2/?bust=1496723723&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/3/?bust=1496723724&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/3/?bust=1496723724&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/3/?bust=1496723724&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/3/?bust=1496723724&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295983/3/?bust=1496723724&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295983"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Humpty Dumpty"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Humpty Dumpty neither sat on a great wall nor had a great fall that we are aware of so a name change may be in order! He is a really friendly guy who comes right up to new folks to say hello and absolutely LOVES to have his head scratched. Like LOVES it!! The opposite can be said about petting his side or scratching his backside. That he does NOT love and will let you know with a little side eye glance that is actually pretty cute despite his intention to be 'telling you how it is'!! He isn't super cuddly and doesn't like to be picked up. He is a tall, lean fellow with really interesting markings especially around his eyes. Like any cat he loves finding a good, sunny spot for a nap. Humpty is a really playful guy - his favorite past time is playing with wand toy and anything with catnip. He is CRAZY for catnip!! He loves playing with other cats too so he would be great in a house with a feline friend. Not sure how he feels about dogs but he has seem some in his current location and seemed very interested so he might be okay with a canine companion too. All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Humpty Dumpty, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:20Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/1/?bust=1496723734&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/1/?bust=1496723734&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/1/?bust=1496723734&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/1/?bust=1496723734&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/1/?bust=1496723734&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/2/?bust=1496723735&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/2/?bust=1496723735&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/2/?bust=1496723735&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/2/?bust=1496723735&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/2/?bust=1496723735&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/3/?bust=1496723736&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/3/?bust=1496723736&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/3/?bust=1496723736&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/3/?bust=1496723736&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37295985/3/?bust=1496723736&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37295985"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Sophia"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Quiet, Affectionate, Lovely Sophia's gorgeous coat is a mixture of tabby orange, pure white and flourishes of black with a beauty mark that's to die for...no wonder she's the envy of all the kitties! But, Sophia's good looks have not gone to her head. She's such a sweetheart who longs for a sense of security and a warm, welcoming lap! Sophia is a bit shy with new people. But, give her a little time to get to know you and you'll see the uncertainty in those lovely green eyes change to adoration and trust. Then it's time to bring on the head scratches and to get ready for cozy times with this gentle angel happily snuggling by your side! Sophia has made efforts to make friends other cats at the shelter, so she would likely enjoy a kitty companion. No need to fret over what to feed her at meal time. Sophia keeps it simple! She needs to be on a special diet of Hill's C/D which is carried at local pet stores and is available online. Sophia is an all-around mellow kitty who dreams of the comfort a calm home and a loving human would surely bring. If you can imagine this lovely lady curled up beside you and warming your heart each and every day, come meet Sophia today! All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Sophia, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:24Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/1/?bust=1496723747&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/1/?bust=1496723747&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/1/?bust=1496723747&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/1/?bust=1496723747&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/1/?bust=1496723747&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/2/?bust=1496723747&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/2/?bust=1496723747&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/2/?bust=1496723747&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/2/?bust=1496723747&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/2/?bust=1496723747&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/3/?bust=1496723748&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/3/?bust=1496723748&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/3/?bust=1496723748&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/3/?bust=1496723748&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296035/3/?bust=1496723748&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296035"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Luke Cage"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Luke Cage has a temporary bit of ringworm, but a lifetime of love to give. Ringworm is a common, easily treatable skin condition! All APA! kitties with ringworm are currently adoptable with ZERO fee, a free course of medication, and unlimited support! Check out @austinpetsaliveringworm on Facebook to learn more and see the awesome kitties covered in this special; and feel free to write us at ringworm@austinpetsalive.org with any questions you may have. All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Luke Cage, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:27Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/1/?bust=1496723759&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/1/?bust=1496723759&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/1/?bust=1496723759&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/1/?bust=1496723759&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/1/?bust=1496723759&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/2/?bust=1496723760&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/2/?bust=1496723760&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/2/?bust=1496723760&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/2/?bust=1496723760&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/2/?bust=1496723760&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/3/?bust=1496723760&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/3/?bust=1496723760&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/3/?bust=1496723760&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/3/?bust=1496723760&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296036/3/?bust=1496723760&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296036"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Hans Dorfler"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Big, good looking, charming Hans Dorfler is a handsome charmer who's just a big softy at heart! He'll occasionally wrestle with his kitty roommates, though he often prefers to just watch them play. He likes attention when he initiates it. He can get overwhelmed at times by too much attention and petting, so he's probably not the best match for small kids and excitable dogs. He is a champion napper who will amuse you with his many 'I'm soooo comfortable! napping positions. Hans had good litter box and scratching manners. He's definitely not into nail trims, though. He can be a bit vocal when it's time to eat. Hans Dorfler has been with us for several months now, and we know he'd love to have his own forever home soon! He'd do well in any relatively quiet home with people who understand cat body language for 'that's enough petting for now, thanks!' He'd probably like to have another kitty friend, too. Hans Dorfler has a temporary bit of ringworm, but a lifetime of love to give. Ringworm is a common, easily treatable skin condition! All APA! kitties with ringworm are currently adoptable with ZERO fee, a free course of medication, and unlimited support! Check out @austinpetsaliveringworm on Facebook to learn more and see the awesome kitties covered in this special; and contact us with any questions you may have. All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Hans Dorfler, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:30Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/1/?bust=1496723772&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/1/?bust=1496723772&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/1/?bust=1496723772&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/1/?bust=1496723772&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/1/?bust=1496723772&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/2/?bust=1496723772&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/2/?bust=1496723772&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/2/?bust=1496723772&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/2/?bust=1496723772&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/2/?bust=1496723772&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/3/?bust=1496723773&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/3/?bust=1496723773&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/3/?bust=1496723773&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/3/?bust=1496723773&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296056/3/?bust=1496723773&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296056"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Blue Bonnet"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Dainty, Polite, Charming It's the season for Blue Bonnet! This super sweet lady likes to be near you or snuggling by your side. She prefers lounging on the couch to playing with toys. She has a charming personality too. She'll give you a heart-melting look with her giant eyes, a soft head boop and top it all off with a darling meow. Blue Bonnet would probably be okay with quiet, gentle kids. She could live with other cats too-she's tolerant and pretty much keeps to her own around them. Blue Bonnet is also FeLV+ (Feline Leukemia Virus), which causes a weakened immune system and requires special care. APA! provides some medical assistance after adoption. Cats with FeLV typically have a shortened lifespan. Sterling is not contagious to people or dogs, but should live only with other FeLV+ cats. For more information, please contact APA! or read more by our Partner, Best Friends Animal Society: http://bestfriends.org/Resources/FAQs-About-Feline-Leukemia-Virus-FeLV Blue Bonnet is looking for a forever home with a soft bed to curl up on, a couch with a sunbeam for naps and a window to watch birds. And of course, plenty of love and affection. Blue Bonnet has a temporary bit of ringworm, but a lifetime of love to give. Ringworm is a common, easily treatable skin condition! All APA! kitties with ringworm are currently adoptable with ZERO fee, a free course of medication, and unlimited support! Check out @austinpetsaliveringworm on Facebook to learn more and see the awesome kitties covered in this special; and contact us with any questions you may have. All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Blue Bonnet, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:33Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/1/?bust=1496723784&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/1/?bust=1496723784&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/1/?bust=1496723784&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/1/?bust=1496723784&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/1/?bust=1496723784&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/2/?bust=1496723784&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/2/?bust=1496723784&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/2/?bust=1496723784&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/2/?bust=1496723784&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/2/?bust=1496723784&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/3/?bust=1496723785&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/3/?bust=1496723785&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/3/?bust=1496723785&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/3/?bust=1496723785&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296063/3/?bust=1496723785&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296063"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Ginger"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Mellow, Sweet, Calm Being a senior cat, Ginger would be the perfect companion cat for an older couple! She is mellow and tranquil. She might playfully bat at your pen now and then, but after that will have to take a nap. Her ideal home would be quiet and low-key. She doesn't need to sit in your lap, but she does appreciate being scratched and petted. When she's had enough, she will push your hand away. Okay, got it, Ginger! Smart girl. Previous to her stay with APA!, Ginger had been declawed. As a result of this she must remain an indoor cat. Which makes perfect sense, because what she wants is to quietly lounge around the house. She mostly ignores the other cats she has met, and we think she'd be okay with older kids who respected her age and activity level. When she gets stressed out she may over groom herself, which is her way of saying, please lower the stress! So a home with rambunctious dogs would not be a good fit. Ginger is a dainty, little old lady with good litter manners. She is an easy cat to live with and to love. If you are looking for this kind of sweetness in your life, contact us today to arrange a meet & greet! All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Ginger, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:37Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/1/?bust=1496723796&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/1/?bust=1496723796&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/1/?bust=1496723796&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/1/?bust=1496723796&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/1/?bust=1496723796&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/2/?bust=1496723797&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/2/?bust=1496723797&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/2/?bust=1496723797&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/2/?bust=1496723797&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/2/?bust=1496723797&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/3/?bust=1496723798&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/3/?bust=1496723798&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/3/?bust=1496723798&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/3/?bust=1496723798&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296070/3/?bust=1496723798&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296070"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": [{
+            "$t": "Labrador Retriever"
+          }, {
+            "$t": "Pointer"
+          }]
+        },
+        "name": {
+          "$t": "Timmy"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "We don't know much about Timmy's past, but we know he's been through a lot. His tail is always wagging, and he looks at our volunteers with so much hope and love. But there's something holding him back from trusting 100%. He is a dog in need of real rescuing, and we're hoping there is a special person out there who can show him there's good things in store. Timmy loves to go on walks and is a great leash walker. He doesn't really like to be petted, but once he trusts you, he will sometimes lay his head in your lap and gaze at you adoringly. He doesn't do that with just anyone, so if you get The Look, you know you've earned a special place in his heart. It might take some time to really forge a bond with Timmy, but once you do, we know it will be a friendship that you will never forget. Timmy is exactly the kind of dog APA! is here for. If you have room in your life to help a lost soul who really needs it, consider Timmy."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:40Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/1/?bust=1496723808&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/1/?bust=1496723808&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/1/?bust=1496723808&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/1/?bust=1496723808&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/1/?bust=1496723808&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/2/?bust=1496723809&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/2/?bust=1496723809&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/2/?bust=1496723809&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/2/?bust=1496723809&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/2/?bust=1496723809&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/3/?bust=1496723810&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/3/?bust=1496723810&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/3/?bust=1496723810&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/3/?bust=1496723810&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296100/3/?bust=1496723810&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296100"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Pit Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Lamar"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Though Lamar will play and enjoys some play time, he's really all about affection and being close to those he loves. He does enjoy his walks and is great on his leash. When at playgroup, he cavorts for a little while, but then he's quite content to find his special friend or friends and settle in for some snuggle time. Apparently Lamar is a great kitchen companion. He's not opposed to trying new things, any or all, and is happy to clean up any kitchen mess made during this new recipe try out fun. And the look in his happy eyes will let you know, you've found a winner of a new recipe. Lamar would be happiest in a home with adults or older children who understand the best relationships develop a little slowly then becoming enduring and strong. He might enjoy one doggy friend in the house as well. This boy is one happy go lucky and super affectionate guy. When he gets one-on-one time with his friends at the shelter, his tail won't stop wagging and he makes it known how grateful he is for attention and affection. This guy deserves his very own all the time snuggle partner/s. Come meet him and start that process of getting to know him as soon as you can get here. He's waiting to meet you and start that tail wagging just for you."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:43Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/1/?bust=1496723820&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/1/?bust=1496723820&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/1/?bust=1496723820&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/1/?bust=1496723820&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/1/?bust=1496723820&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/2/?bust=1496723821&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/2/?bust=1496723821&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/2/?bust=1496723821&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/2/?bust=1496723821&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/2/?bust=1496723821&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/3/?bust=1496723822&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/3/?bust=1496723822&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/3/?bust=1496723822&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/3/?bust=1496723822&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296115/3/?bust=1496723822&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296115"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Lamar"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Handsome, Social, Big Lamar knows what he wants and where to get it! With a big personality, Lamar will seek out affection from his human friends and loves to cuddle with his feline counterparts. A fan of other adults cats, he prefers to be around a mature audience, so kittens and lots of over-stimulation are not his cup of tea. As an occasional participant in playtime, Lamar would love to be adopted into a home with another cat. Lamar will be vocal at chow time, but otherwise loves to ascend to the highest peaks in his vicinity for a great view. Lamar has a temporary bit of ringworm, but a lifetime of love to give. Ringworm is a common, easily treatable skin condition! All APA! kitties with ringworm are currently adoptable with ZERO fee, a free course of medication, and unlimited support! Check out @austinpetsaliveringworm on Facebook to learn more and see the awesome kitties covered in this special; and contact us with any questions you may have. All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Lamar, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:47Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/1/?bust=1496723833&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/1/?bust=1496723833&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/1/?bust=1496723833&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/1/?bust=1496723833&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/1/?bust=1496723833&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/2/?bust=1496723833&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/2/?bust=1496723833&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/2/?bust=1496723833&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/2/?bust=1496723833&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/2/?bust=1496723833&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/3/?bust=1496723834&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/3/?bust=1496723834&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/3/?bust=1496723834&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/3/?bust=1496723834&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296117/3/?bust=1496723834&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296117"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Ryan"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Quiet, Affectionate, Handsome Ryan didn't get enough attention in his previous home, and he is making up for lost time! As long as you approach him properly: quietly, slowly, sitting down, allowing him to come to you. And then it is obvious that he adores affection! He will sit in your lap and 'let' you scratch his head and chin for hours; he will be reluctant to leave your warm and snuggly lap! Ryan has all he needs to be a super-friendly, awesome companion cat - now he just needs a human companion willing to take things slowly with him. Ryan is quite dashing, too, with the cluster of gray chest hairs amidst his rich, black coat: it looks like he is all dressed up, wearing a bow tie or ascot! Ryan and his foster brother, Stormy, have been pals for a while and do well together, even though Ryan is the bossy one in their relationship (and sometimes gets jealous with sharing your affection). Ryan would do well in a home with Stormy or another mellow kitty. To learn more about Stormy - https://www.austinpetsalive.org/adopt/available-cat-details/?ID=44055 In addition to playing with Stormy, Ryan is a big fan of wand toys! He will grab the wand toy and play tug-of-war with you. He is playful, but moderately so; not crazy-playful. The best home for Ryan would be quiet/low-traffic, with Stormy or another easy-going cat buddy, and adults/young adults; little kids would likely be too chaotic for him. He is about halfway to being a TOTAL lap cat, are you ready to help him go the rest of the distance? Contact us today to meet him! All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Ryan, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:50Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/1/?bust=1496723845&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/1/?bust=1496723845&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/1/?bust=1496723845&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/1/?bust=1496723845&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/1/?bust=1496723845&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/2/?bust=1496723846&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/2/?bust=1496723846&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/2/?bust=1496723846&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/2/?bust=1496723846&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/2/?bust=1496723846&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/3/?bust=1496723846&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/3/?bust=1496723846&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/3/?bust=1496723846&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/3/?bust=1496723846&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296121/3/?bust=1496723846&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296121"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Frank"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "This face! Mister Frank is the most handsome Van cat, mostly white with black around the edges. His eyes are always sparkling and his whisker game is fierce. Despite his obvious excellence, Frank is a bit of a shy guy. He needs someone to dote on him and let him know how wonderful he is. Can you give this sweet boy the gentle love he seeks? Frank has a temporary bit of ringworm, but a lifetime of love to give. Ringworm is a common, easily treatable skin condition! All APA! kitties with ringworm are currently adoptable with ZERO fee, a free course of medication, and unlimited support! Check out @austinpetsaliveringworm on Facebook to learn more and see the awesome kitties covered in this special; and contact us with any questions you may have. All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Frank, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:53Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/1/?bust=1496723857&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/1/?bust=1496723857&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/1/?bust=1496723857&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/1/?bust=1496723857&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/1/?bust=1496723857&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/2/?bust=1496723858&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/2/?bust=1496723858&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/2/?bust=1496723858&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/2/?bust=1496723858&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/2/?bust=1496723858&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/3/?bust=1496723858&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/3/?bust=1496723858&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/3/?bust=1496723858&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/3/?bust=1496723858&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296147/3/?bust=1496723858&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296147"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Stormy"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Quiet, Shy, Playful Stormy is anything but - it's clear sailing with our Stormy! Stormy came from a home where he didn't get a lot of human interaction, but that didn't affect his super-sweet demeanor. He is not crazy about being picked up, and much prefers for you to approach him calmly and quietly and sit on the floor with him (because when you are standing over him, you are dauntingly tall). Then he will do a belly flop to make it easy as possible for you to pet him. He ESPECIALLY likes for you to scratch his chinny-chin-chin and rub his head. He was recently introduced to the brush, and has decided that's okay, too - so brush his coat and increase his bliss! Stormy is easy-going and meek with other cats, even his bossy foster brother, Ryan. Stormy would do well in a home with Ryan or with another chill cat who will let his sweet personality shine even brighter. To learn more about Ryan - https://www.austinpetsalive.org/adopt/available-cat-details/?ID=43962 Stormy is playful, so get your wand toys ready! Those get him energized, as well as chasing little balls around the house. He is young and eager to play, he just needs his patient human companion to go slowly with him. Stormy likes his wet food, so he needs to exercise to stay fit & healthy! The best home for Stormy would include Ryan or another chill cat buddy, and adult humans; young children would likely startle him. His home should be on the quiet and low-traffic side of active. Stormy is everything we love about cats. Contact us today to arrange a meet & greet! All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Stormy, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:13:57Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/1/?bust=1496723869&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/1/?bust=1496723869&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/1/?bust=1496723869&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/1/?bust=1496723869&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/1/?bust=1496723869&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/2/?bust=1496723870&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/2/?bust=1496723870&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/2/?bust=1496723870&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/2/?bust=1496723870&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/2/?bust=1496723870&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/3/?bust=1496723870&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/3/?bust=1496723870&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/3/?bust=1496723870&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/3/?bust=1496723870&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296291/3/?bust=1496723870&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296291"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Many Toes"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Chatty - Mellow - Lap Cat Many Toes got her unusual name from one of her most distinguished features -- she does indeed have many toes! We're not even sure just how many, that's how many toes she has. She is a polydactyl, which is just a fancy way of saying a cat with more toes than the usual amount. When you meet this sweet senior lady, you'll want to kiss all her little toes and you'll see why Earnest Hemingway had a special fondness for polydactyl cats. Many Toes is so happy to be loved on! She loves laps and adores chin scratches. She will purr and purr and lean into hands. Her favorite thing in the world is being pet, brushed, and fed all at the same time. She is chatty little old lady with a little old lady meow. She doesn't yell, and isn't super loud, but will hold a conversation with you. She is respectful towards other cats and would be fine as a second cat. Her experience with dogs is unknown, but she'd likely get along fine with a calm or older dog. Older children would also be great companions for Many Toes. She mostly wants to sleep, eat and be loved, and will flourish in a calm house where she can chill with her favorite humans. Many Toes has Chronic Renal Disease, which means Many Toes's kidneys are not functioning as well as they once were. This condition is so common in older cats that APA! offers a special adoption package for them. Read more about renal failure and adoption details here: http://www.austinpetsalive.org/2016/03/lives-worth-saving-cats-in-renal-failure All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Many Toes please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-06T04:37:51Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/1/?bust=1497100446&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/1/?bust=1497100446&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/1/?bust=1497100446&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/1/?bust=1497100446&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/1/?bust=1497100446&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/2/?bust=1497100447&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/2/?bust=1497100447&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/2/?bust=1497100447&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/2/?bust=1497100447&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/2/?bust=1497100447&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/3/?bust=1497100447&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/3/?bust=1497100447&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/3/?bust=1497100447&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/3/?bust=1497100447&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296312/3/?bust=1497100447&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296312"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Pit Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Bevo"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Bevo is a super-friendly dog who is looking for a family that is ready to love him back! This young adult is in the prime of life, and he's looking to become a long-term companion for a lucky home. Did we mention he's friendly? He bonds quickly with new humans and becomes a very devoted friend. He loves getting a good petting session. Wagging his tail just isn't enough - he likes to wiggle his whole body! But he's not just a loverboy. He also enjoys getting in some exercise. He has a medium energy level, loves going on walks and makes a great walking partner. He's also very treat motivated. Not only does this make it easy for his handler to keep Bevo's focus on walks, but it also makes Bevo enthusiastic about training. He's a smart guy who already knows basic obedience skills and walks nicely on a leash. He loves to learn new tricks as long as there is a tasty morsel in it for him. He's been working hard with the behavior team would would love to show you all he's learned. A playful boy, Bevo also loves to be outside running around, so a home with a yard would be great for him. He would love to play chase and tag with his favorite people, and he'll even push a soccer ball around with them. And then indoors, he also loves being a couch potato. Bevo loves to play with his dog friends at the shelter, and he'd love to have more playdates to continue to receive socialization (and exercise). He shows potential for living nicely with a cat in his forever home. A home with older children or all adults would be great for him. With some ongoing leadership and consistency, Bevo should turn into a great family dog. He'll keep smiles on everyone's face!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:08Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/1/?bust=1497100457&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/1/?bust=1497100457&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/1/?bust=1497100457&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/1/?bust=1497100457&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/1/?bust=1497100457&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/2/?bust=1497100458&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/2/?bust=1497100458&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/2/?bust=1497100458&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/2/?bust=1497100458&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/2/?bust=1497100458&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/3/?bust=1497100458&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/3/?bust=1497100458&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/3/?bust=1497100458&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/3/?bust=1497100458&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296316/3/?bust=1497100458&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296316"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Sak"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Silly, Affectionate, Talkative Sak is a small tortoisehell with a big purr-sonality. This gorgeous, super soft kitty pretends to be a little shy at first, but only out of habit. Once you start petting her, she can't resist. She flops and rolls around and just purrs and purrs. And, she is now officially a lap cat! She loves to hop up on the couch and curl up between her foster parents or snuggle up on her foster dad's lap. Sak has a lot to say, and her vocabulary includes adorable trills, sweet little meows and a loud, long meow when she wants attention. She gets along well with the other kittens in her foster home and loves to play with them. She's especially good at chasing toys around the house, slipping and sliding on the wood floors. She also has a kleptomaniac side and tends to swipe any small object that makes a nice noise or rolls well when it is batted around. Her favorites are tweezers, allen wrenches and pecans (tweezers and allen wrenches are taken away from her immediately for safety!), and she has even been known to swipe cherry tomatoes. Sak and her brother, Coach, had a rough start to life, and after months in the shelter they have really begun to blossom in their foster home. They will need a patient adopter or adopters who can give them the time and space they will need to adjust to their new home. In return, their adopter(s) will be rewarded with loving slow blinks, head butts, enthusiastic purring, and hours of entertainment as their kittens explore and play. Ideally Sak and Coach would be adopted together, and they would also do well in a household with other cats. They would prefer a quiet, low-stress home without too much activity. For more pictures and videos of Sak and Coach, have a look at their foster family's Facebook page - https://www.facebook.com/AllTheKittiesFosters or Instagram account - https://www.instagram.com/allthekittiesfosters All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Sak, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:19Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/1/?bust=1497100468&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/1/?bust=1497100468&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/1/?bust=1497100468&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/1/?bust=1497100468&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/1/?bust=1497100468&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/2/?bust=1497100469&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/2/?bust=1497100469&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/2/?bust=1497100469&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/2/?bust=1497100469&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/2/?bust=1497100469&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/3/?bust=1497100469&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/3/?bust=1497100469&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/3/?bust=1497100469&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/3/?bust=1497100469&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296318/3/?bust=1497100469&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296318"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Coach"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Curious, Low-Key, Cat-Lover Coach is a gentle giant who absolutely adores other cats. Although he is a little shy and tentative at first, he is as curious as a cat can be. When not actively exploring and investigating, he's busy observing the goings-on around him, especially if there are birds to watch outside. He loves the company of the other kittens in his foster home, and they have helped boost his confidence. Although he's not a lap cat (yet!), he's tentatively testing the waters and is working toward half on/half off, and walking across laps. He loves pets and scratches, especially around his neck and ears and seeks out attention from his foster parents. He has a sweet, low, chirpy purr and is happy to share it with you. If you catch him in a particularly snuggly mood, he'll let you pet and kiss his belly and give you enthusiastic head bumps. He is a master at staring lovingly into your eyes. Coach and his sister, Sak, had a rough start to life, and after months in the shelter they have really begun to blossom in their foster home. They will need a patient adopter or adopters who can give them the time and space they will need to adjust to their new home. In return, their adopter(s) will be rewarded with loving slow blinks, head butts, enthusiastic purring, and hours of entertainment as their kittens explore and play. Ideally Coach and Sak would be adopted together, and they would also do well in a household with other cats. They would prefer a quiet, low-stress home without too much activity. For more pictures and videos of Coach and Sak, have a look at their foster family's Facebook page - https://www.facebook.com/AllTheKittiesFosters or Instagram account - https://www.instagram.com/allthekittiesfosters All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Coach, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:30Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "L"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/1/?bust=1496723921&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/1/?bust=1496723921&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/1/?bust=1496723921&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/1/?bust=1496723921&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/1/?bust=1496723921&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/2/?bust=1496723921&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/2/?bust=1496723921&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/2/?bust=1496723921&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/2/?bust=1496723921&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/2/?bust=1496723921&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/3/?bust=1496723922&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/3/?bust=1496723922&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/3/?bust=1496723922&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/3/?bust=1496723922&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296321/3/?bust=1496723922&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296321"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": [{
+            "$t": "Labrador Retriever"
+          }, {
+            "$t": "Pit Bull Terrier"
+          }]
+        },
+        "name": {
+          "$t": "Marmalade"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "If you're looking for a dog to make you smile, you found her. From the tips of ears to the tip of her tail, Marmalade knows how to have fun. She's an expert with a tennis ball, whether it's fetching with her human or rolling it around for herself. Her favorite game is burying them in muddy puddles and kiddie pools. Bonus points for the squeaky kind! Marmalade is the kind of dog who could possibly live with another dog, but would also be happy as an only child. But as long as there are enough treats to go around, that's what really matters. Marmalade is a sweet girl who takes a little extra time to really trust new people, but your patience will pay off 10 times over. She will reward you with unbridled joy and the sweetest kisses. So if you want a wiggly butt to greet you at the end of the day, look no further!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:33Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Senior"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/1/?bust=1497100483&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/1/?bust=1497100483&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/1/?bust=1497100483&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/1/?bust=1497100483&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/1/?bust=1497100483&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/2/?bust=1497100484&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/2/?bust=1497100484&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/2/?bust=1497100484&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/2/?bust=1497100484&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/2/?bust=1497100484&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/3/?bust=1497100484&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/3/?bust=1497100484&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/3/?bust=1497100484&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/3/?bust=1497100484&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296383/3/?bust=1497100484&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296383"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Boxer"
+          }
+        },
+        "name": {
+          "$t": "Brasco"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Brasco has made an exciting discovery - those tennis balls are really fun to chase. So he brings them back and drops at his person's feet on command so he can fetch them all over again. This happy, bouncy boy loves to romp and play. And outdoors he loves to explore with many, many sniffs. And then he wants to be with his human friends, getting as close to them as possible, curling his entire body against them. Brasco has lived with kids in the past. He walks well on his leash, seems crate trained and is reported to be house trained. And he's a gentle taker of those treats he loves. Brasco enjoys learning new things and is in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Brasco has a personalized training plan and works with a volunteer trainer several times a week to help him learn the skills to become the best dog he can be! He is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Brasco successfully completes all the skills on his training plan he will be considered TOP Dog Ready! Brasco is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Brasco after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193 This cheerful boy may do best as the only pet in a home where he can get abundant love. He promises to return it many times over."
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:45Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/1/?bust=1496723945&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/1/?bust=1496723945&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/1/?bust=1496723945&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/1/?bust=1496723945&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/1/?bust=1496723945&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/2/?bust=1496723946&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/2/?bust=1496723946&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/2/?bust=1496723946&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/2/?bust=1496723946&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/2/?bust=1496723946&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/3/?bust=1496723946&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/3/?bust=1496723946&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/3/?bust=1496723946&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/3/?bust=1496723946&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296403/3/?bust=1496723946&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296403"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Pit Bull Terrier"
+          }
+        },
+        "name": {
+          "$t": "Sam"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "He is Sam! Sam is a happy, healthy dog in the prime of life. He'd love to meet his new family and become a long-term companion. Sam can take a few minutes to warm up to new faces. We know the feeling. But once he knows and trusts you, he truly is man's (or woman's) best friend. We're wondering how his tail is still attached, with all the wagging it does every time he spies his favorite volunteers. After he feels comfortable he loves to come up for some petting. Sam has a medium energy level. He definitely enjoys a good romp now and then, but he also likes to get in plenty of beauty sleep. We think Sam would do best in a home with adults or with older children. He'll definitely benefit from a family who can provide him with both mental and physical stimulation and ongoing training. He promises to make the learning fun for everyone! Sam is a good playmate for most dogs. If you've already got a dog in your home, we'd be happy to introduce them to make sure they would be compatible housemates. But Sam isn't just a good-time Charlie. He's shown himself to be a smart dog and knows all of his basic commands. Often he'll ask you for instructions by waving his paws at you. Sam is in the Total Obedience Program. The Total Obedience Program (TOP) is modelled after the AKC's Canine Good Citizen (CGC) test. As a TOP dog, Sam has a personalized training plan and works with a volunteer trainer several times a week to help him learn the skills to become the best dog he can be! He is learning skills like sit and down, walking nicely on leash, sitting calmly when approached by strangers or other dogs, staying in a sit or down until told 'free,' and coming when called. Once Sam successfully completes all the skills on his training plan he will be considered TOP Dog Ready! Sam is working hard to become a wonderful pet and as a part of APA's Total Obedience Program you can work with APA staff to continue to build a training relationship with Sam after adoption and master all the TOP dog skills together. Check out a video on APA's CGC program, on which the TOP was based: https://vimeo.com/89434193"
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:48Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/1/?bust=1496723957&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/1/?bust=1496723957&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/1/?bust=1496723957&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/1/?bust=1496723957&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/1/?bust=1496723957&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/2/?bust=1496723958&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/2/?bust=1496723958&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/2/?bust=1496723958&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/2/?bust=1496723958&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/2/?bust=1496723958&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/3/?bust=1496723958&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/3/?bust=1496723958&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/3/?bust=1496723958&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/3/?bust=1496723958&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296409/3/?bust=1496723958&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296409"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "Sao Paulo"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Bright, Sweet, Shy Sao Paulo is your classic introverted free spirit. She can be a bit shy at first, but she makes fast, loyal friends out of everyone she meets. Her sweet personality is so infectious that Sao Paulo leads a pack of kitties in her shelter! She even bathes her kitty friends. Sao Paulo enjoys exploring her surroundings and discovering new nooks and crannies to hang out in. When she isn't playing around with her kitty friends she's an independent free spirit who enjoys doing her own thing. Don't let Sao Paulo's initial shyness scare you away, because with just a few chin scratches she melts and becomes an immediate friend. Sao Paulo's ideal home would have another cat or two to hang out with and plenty of space to explore the great indoors. If this sounds like you, don't hesitate to meet her today! All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet Sao Paulo, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-06T04:39:19Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "M"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/1/?bust=1496723969&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/1/?bust=1496723969&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/1/?bust=1496723969&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/1/?bust=1496723969&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/1/?bust=1496723969&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/2/?bust=1496723970&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/2/?bust=1496723970&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/2/?bust=1496723970&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/2/?bust=1496723970&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/2/?bust=1496723970&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/3/?bust=1496723970&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/3/?bust=1496723970&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/3/?bust=1496723970&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/3/?bust=1496723970&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296428/3/?bust=1496723970&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296428"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Domestic Short Hair"
+          }
+        },
+        "name": {
+          "$t": "San Juan"
+        },
+        "sex": {
+          "$t": "F"
+        },
+        "description": {
+          "$t": "Quiet, reserved, independent San Juan is a pretty little black and white tuxedo girl. This little lady knows what she wants, and likes to do her own thing. She especially loves climbing, perching up high, and exploring hidey holes. She occasionally enjoys hanging out with her other kitty friends, but will then want some alone time. San Juan is still shy and wary of adults, kids, and dogs. She may slowly warm up to adults as she gains trust in them and in her environment. She has good litter and scratching manners, but we do not even speak of nail trims, let alone attempt them. She will run and hide if she sees you with nail clippers. She's pretty quiet, though she will occasionally meow to remind you that it's time for breakfast. San Juan would do best in a quiet home with a cat-experienced adult or two who can gently encourage her to keep coming out of his shell while still respecting her independence. All APA! cats are fully vetted, spayed or neutered, and have updated vaccines and a microchip. Lifetime support is offered by our Cat Behavior Team. For further information or to meet San Juan, please email adopt@austinpetsalive.org."
+        },
+        "mix": {
+          "$t": "no"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:51Z"
+        },
+        "animal": {
+          "$t": "Cat"
+        }
+      }, {
+        "options": {
+          "option": {
+            "$t": "altered"
+          }
+        },
+        "status": {
+          "$t": "A"
+        },
+        "contact": {
+          "phone": {},
+          "state": {
+            "$t": "TX"
+          },
+          "address2": {},
+          "email": {
+            "$t": "adopt@austinpetsalive.org"
+          },
+          "city": {
+            "$t": "Austin"
+          },
+          "zip": {
+            "$t": "78704"
+          },
+          "fax": {},
+          "address1": {
+            "$t": "1156 West Cesar Chavez"
+          }
+        },
+        "age": {
+          "$t": "Adult"
+        },
+        "size": {
+          "$t": "XL"
+        },
+        "media": {
+          "photos": {
+            "photo": [{
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/1/?bust=1496723981&width=60&-pnt.jpg",
+              "@id": "1"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/1/?bust=1496723981&width=95&-fpm.jpg",
+              "@id": "1"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/1/?bust=1496723981&width=500&-x.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/1/?bust=1496723981&width=300&-pn.jpg",
+              "@id": "1"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/1/?bust=1496723981&width=50&-t.jpg",
+              "@id": "1"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/2/?bust=1496723982&width=60&-pnt.jpg",
+              "@id": "2"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/2/?bust=1496723982&width=95&-fpm.jpg",
+              "@id": "2"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/2/?bust=1496723982&width=500&-x.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/2/?bust=1496723982&width=300&-pn.jpg",
+              "@id": "2"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/2/?bust=1496723982&width=50&-t.jpg",
+              "@id": "2"
+            }, {
+              "@size": "pnt",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/3/?bust=1496723982&width=60&-pnt.jpg",
+              "@id": "3"
+            }, {
+              "@size": "fpm",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/3/?bust=1496723982&width=95&-fpm.jpg",
+              "@id": "3"
+            }, {
+              "@size": "x",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/3/?bust=1496723982&width=500&-x.jpg",
+              "@id": "3"
+            }, {
+              "@size": "pn",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/3/?bust=1496723982&width=300&-pn.jpg",
+              "@id": "3"
+            }, {
+              "@size": "t",
+              "$t": "http://photos.petfinder.com/photos/pets/37296468/3/?bust=1496723982&width=50&-t.jpg",
+              "@id": "3"
+            }]
+          }
+        },
+        "id": {
+          "$t": "37296468"
+        },
+        "shelterPetId": {},
+        "breeds": {
+          "breed": {
+            "$t": "Catahoula Leopard Dog"
+          }
+        },
+        "name": {
+          "$t": "Chewbacca"
+        },
+        "sex": {
+          "$t": "M"
+        },
+        "description": {
+          "$t": "Like his namesake, Chewbacca is ready to have his person's back. He loves his human friends. And unlike his namesake, Chewbacca is a very cuddly and super soft boy who has done well with other dogs in playgroup. He's content to go for walks with his people. And he really loves chairs - happy to sit in a chair next to his people, leaning against them. This sweet, smart boy is reported to be crate and house trained. Come visit and see if your house is his next destination!"
+        },
+        "mix": {
+          "$t": "yes"
+        },
+        "shelterId": {
+          "$t": "TX1218"
+        },
+        "lastUpdate": {
+          "$t": "2017-06-10T13:14:54Z"
+        },
+        "animal": {
+          "$t": "Dog"
+        }
       }]
     },
     "header": {
       "timestamp": {
-        "$t": "2017-06-27T21:40:05Z"
+        "$t": "2017-06-30T14:40:51Z"
       },
       "status": {
         "message": {},
