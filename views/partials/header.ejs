@@ -17,12 +17,15 @@
   <body>
     <div class="wrapper">
     <a href="/"><img class='logo' src="../images/shelter.png" alt=""></a>
-    <ul id='nav-mobile'>
-      <li><a class="" href="/">Pets</a></li>
-      <li><a id='btn-manage-handlers' class="btn-manage-handlers" href="/handlers">Employees</a></li>
-      <li><a class='waves-effect waves-light' href="#modal-login">Login</a></li>
-    </ul>
-    <ul>
-      <li id='login-text' class="login-text">Logged In As: </li>
-      <li><a href='/logout' class='button-logout' id='button-logout' type="button" name="button">Log Out</a></li>
-    </ul>
+    <div class="nav-mobile">
+      <ul>
+        <li class='login'><a class='btn waves-effect waves-light' href="#modal-login">Login</a>
+          <ul>
+            <li id='login-text' class="login-text">Logged In As: </li>
+            <li><a href='/logout' class='button-logout' id='button-logout' type="button" name="button">Log Out</a></li>
+          </ul>
+        </li>
+        <li><a class="btn-nav" href="/">Pets</a></li>
+        <li><a id='btn-manage-handlers' class="btn-nav btn-manage-handlers" href="/handlers">Employees</a></li>
+      </ul>
+    </div>

@@ -173,7 +173,7 @@ router.get('/', async(req, res, next) => {
   let join
   knex('pets').then((ret) => {
     pets = ret;
-    console.log(res.cookie, 'cookie');
+    // console.log(res.cookie, 'cookie');
     knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
       // console.log(returned, 'joined');
       join = returned;
@@ -214,7 +214,7 @@ router.get('/pets/:id', function(req, res, next){
     knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
       // console.log(returned, 'joined');
       join = returned;
-      console.log(join);
+      // console.log(join);
       res.render('pages/pet', {
         pet : pet,
         join : join
