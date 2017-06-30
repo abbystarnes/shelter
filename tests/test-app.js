@@ -21,11 +21,15 @@ describe('get /logout', () => {
 });
 
 describe('post /login_gmail', function() {
-    it('responds with 404', function() {
+  let newToken = { id_token: 'eyJhbGciOiJSUzI1NiIsImtpZCI6IjAwOTM1MGMwZDNkYmMzNzhlZTFkYWYzN2RkZjdmN2RiZDcyOGEyMjIifQ.eyJhenAiOiI0NjM5NjEyNDIzMC01bW9qaDVpYzU2OTB0M2ZhMTlkYnY1MDVwNHU1MmxjMi5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsImF1ZCI6IjQ2Mzk2MTI0MjMwLTVtb2poNWljNTY5MHQzZmExOWRidjUwNXA0dTUybGMyLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTE4MDU4NjI2ODYzMDQyODg5NzAyIiwiZW1haWwiOiJvcmRldHRlc3Rhcm5lc0BnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6IlZEOUpxQko4TVBHZjVOLS1YR2NYcGciLCJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiaWF0IjoxNDk4ODM5NjM0LCJleHAiOjE0OTg4NDMyMzQsIm5hbWUiOiJBYmJ5IFN0YXJuZXMiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDQuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy16ckdpWGljS3AwQS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFrMC96cl9yWmhNZ0FzTS9zOTYtYy9waG90by5qcGciLCJnaXZlbl9uYW1lIjoiQWJieSIsImZhbWlseV9uYW1lIjoiU3Rhcm5lcyIsImxvY2FsZSI6ImVuIn0.MFTDx4JUafhNstK5fh5bQSfY-bkOOQqxfwObsN7EfoP-arPvzHyFBft5U5Re9TIfV8eg_vHD2PNVicd14XE8VdrniN7KADW2jlsB-ovlC0Gm-Bg23IZNJJeuUtnw2yCvAloP9nFQcPqxdx6f1sSKIUrYfdqS3WU9YPAGADHrB9UOg7th2rgEr-LTRcrSMNvb7CugQfRaAHeVbWTjYanX4TIjGAMbahcPYlEf9kNcHRiL2fVL7l_h8HLg3t9JxJlakK4MEhTkfassxP-22MuI2iqpiMOrHv0KB1oAVFixiIY7ASD1g7DQCq_xrHc5vUF7bDZKd-nkbDUkJWIJzHt6og',
+  email: 'ordettestarnes@gmail.com' }
+
+    it('responds with 400', function(done) {
         request(app)
             .post('/login_gmail')
+            .send(newToken)
             .expect('Content-Type', /text/)
-            .expect(404);
+            .expect(400, done);
     });
 });
 

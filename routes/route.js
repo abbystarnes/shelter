@@ -36,7 +36,7 @@ router.get('/logout', async(req, res, next) => {
 })
 
 router.post('/login_gmail', async(req, res, next) => {
-  console.log();
+  // console.log(req.body);
     let token = req.body.id_token;
     var auth = new GoogleAuth;
     var client = new auth.OAuth2('46396124230-5mojh5ic5690t3fa19dbv505p4u52lc2.apps.googleusercontent.com', '', '');
@@ -62,12 +62,12 @@ router.post('/login_gmail', async(req, res, next) => {
             let join
             knex('pets').then((ret) => {
               pets = ret;
-              console.log(res.cookie, 'cookie');
+              // console.log(res.cookie, 'cookie');
               knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
                 // console.log(returned, 'joined');
                 join = returned;
                 // console.log(join);
-                res.status(302);
+                res.status(400);
                 res.render('pages/pets', {
                   pets : pets,
                   join : join
@@ -106,7 +106,7 @@ router.post('/login_gmail', async(req, res, next) => {
 
 //LOCAL LOGIN
 router.post('/login_local', async(req, res, next) => {
-  console.log(req.body);
+  console.log(req.body, 'req body');
   let email = req.body.email;
   knex('handlers').where('email', email).then((data)=>{
     if (data[0]) {
@@ -115,7 +115,7 @@ router.post('/login_local', async(req, res, next) => {
         if (ret) {
           let permissionLevel = data[0].permission;
           let email = data[0].email;
-          console.log(permissionLevel, 'permission level');
+          // console.log(permissionLevel, 'permission level');
           if (permissionLevel) {
             res.cookie('permission' , permissionLevel)
             res.cookie('email' , email);
@@ -126,7 +126,7 @@ router.post('/login_local', async(req, res, next) => {
             let join
             knex('pets').then((ret) => {
               pets = ret;
-              console.log(res.cookie, 'cookie');
+              // console.log(res.cookie, 'cookie');
               knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
                 // console.log(returned, 'joined');
                 join = returned;
@@ -163,9 +163,13 @@ router.post('/login_local', async(req, res, next) => {
         }
       }).catch(bcrypt.MISMATCH_ERROR, function(){
         console.log('password not a match');
+        res.status(404)
+        res.send('invalid password')
       })
     } else {
       console.log('no database emails match given email');
+      res.status(404)
+      res.send('invalid email')
     }
   })
 });
@@ -208,7 +212,7 @@ router.get('/pets', function(req, res, next) {
 });
 
 router.get('/pets/:id', function(req, res, next){
-  console.log('here');
+  // console.log('here');
   let id = parseInt(req.params.id);
   let pet
   let join
