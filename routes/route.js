@@ -36,6 +36,7 @@ router.get('/logout', async(req, res, next) => {
 })
 
 router.post('/login_gmail', async(req, res, next) => {
+  console.log();
     let token = req.body.id_token;
     var auth = new GoogleAuth;
     var client = new auth.OAuth2('46396124230-5mojh5ic5690t3fa19dbv505p4u52lc2.apps.googleusercontent.com', '', '');
