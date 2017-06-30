@@ -205,6 +205,7 @@ router.get('/pets', function(req, res, next) {
 });
 
 router.get('/pets/:id', function(req, res, next){
+  console.log('here');
   let id = parseInt(req.params.id);
   let pet
   let join
@@ -213,7 +214,7 @@ router.get('/pets/:id', function(req, res, next){
     knex('pets').join('handlers_pets', 'pets_id', 'pets.id').join('handlers','handlers_id','handlers.id').then((returned)=>{
       // console.log(returned, 'joined');
       join = returned;
-      // console.log(join);
+      console.log(join);
       res.render('pages/pet', {
         pet : pet,
         join : join
